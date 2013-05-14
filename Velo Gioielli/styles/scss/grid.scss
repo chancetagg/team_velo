@@ -1,374 +1,178 @@
-/*
-	Variable Grid System.
-	Learn more ~ http://www.spry-soft.com/grids/
-	Based on 960 Grid System - http://960.gs/
-
-	Licensed under GPL and MIT.
-*/
-
-/*
-  Forces backgrounds to span full width,
-  even if there is horizontal scrolling.
-  Increase this if your layout is wider.
-
-  Note: IE6 works fine without this fix.
-*/
-
-body {
-  min-width: 960px;
-}
-
-/* Containers
-----------------------------------------------------------------------------------------------------*/
-.container_12 {
-	margin-left: auto;
-	margin-right: auto;
-	width: 960px;
-}
-
-/* Grid >> Global
-----------------------------------------------------------------------------------------------------*/
-
-
-.grid_1,
-.grid_2,
-.grid_3,
-.grid_4,
-.grid_5,
-.grid_6,
-.grid_7,
-.grid_8,
-.grid_9,
-.grid_10,
-.grid_11,
-.grid_12 {
-	display:inline;
-	float: left;
-	position: relative;
-	margin-left: 10px;
-	margin-right: 10px;
-}
+/* ------------------------------------------ */
+/* ------------------------------------------ */
+/* ------------------------------------------ */
+/* Customized scss based grid, by Scribble Tone
+Based on 960 grid system structure http://960.gs/ */
+/* ------------------------------------------ */
+/* ------------------------------------------ */
+/* ------------------------------------------ */
+/* ------------------------------------------ */
 
 
 
-.push_1, .pull_1,
-.push_2, .pull_2,
-.push_3, .pull_3,
-.push_4, .pull_4,
-.push_5, .pull_5,
-.push_6, .pull_6,
-.push_7, .pull_7,
-.push_8, .pull_8,
-.push_9, .pull_9,
-.push_10, .pull_10,
-.push_11, .pull_11,
-.push_12, .pull_12 {
-	position:relative;
-}
+/* ---------------------------------- */
+/* Customization Settings ------------*/
+/* ---------------------------------- */
 
 
-/* Grid >> Children (Alpha ~ First, Omega ~ Last)
-----------------------------------------------------------------------------------------------------*/
+$breakpoints: (1400, 1200, 1000, 750, 600, 400);
+/* Add media query breakpoints and new grid calculations at each of these sizes. Values must be highest to lowest.  */
+ 
+$columns: 12; 
+/* number of columns */
 
-.alpha {
-	margin-left: 0;
-}
+$gutter: 20; 
+/* total space between each column in px*/
 
-.omega {
-	margin-right: 0;
-}
+$prefix: '.grid_'; 
+/* prefix for class to call your grid. end with underscore Example output: .grid_6  */
 
-/* Grid >> 12 Columns
-----------------------------------------------------------------------------------------------------*/
+$push: true; 
+/* Push styles on/off. Accepts true/false. Example output: .push_6 */
 
+$pull: false; 
+/* Pull styles on/off. Accepts true/false. Example output: .pull_6 */
 
-.container_12 .grid_1 {
-	width:60px;
-}
+$max-font-size: 109; 
+/* Scales body font-size percentage max. If you want no change, set to 100 */
 
-.container_12 .grid_2 {
-	width:140px;
-}
-
-.container_12 .grid_3 {
-	width:220px;
-}
-
-.container_12 .grid_4 {
-	width:300px;
-}
-
-.container_12 .grid_5 {
-	width:380px;
-}
-
-.container_12 .grid_6 {
-	width:460px;
-}
-
-.container_12 .grid_7 {
-	width:540px;
-}
-
-.container_12 .grid_8 {
-	width:620px;
-}
-
-.container_12 .grid_9 {
-	width:700px;
-}
-
-.container_12 .grid_10 {
-	width:780px;
-}
-
-.container_12 .grid_11 {
-	width:860px;
-}
-
-.container_12 .grid_12 {
-	width:940px;
-}
+$min-font-size: 80; 
+/* Scales body font-size percentage min. If you want no change, set to 100 */
 
 
 
+/* -------------------------- */
+/* End Customization Settings */
+/* -------------------------- */
 
-/* Prefix Extra Space >> 12 Columns
-----------------------------------------------------------------------------------------------------*/
 
 
-.container_12 .prefix_1 {
-	padding-left:80px;
-}
+$num-breakpoints: length($breakpoints);
+$font-size-interval:($max-font-size - $min-font-size) / $num-breakpoints ;
 
-.container_12 .prefix_2 {
-	padding-left:160px;
-}
 
-.container_12 .prefix_3 {
-	padding-left:240px;
-}
 
-.container_12 .prefix_4 {
-	padding-left:320px;
-}
+@mixin build-grids($container_width, $i_breakpoint) {
+	@if $i == $length-breakpoints {
+		$container-width: $container-width - 20;  
+	}	
+	@else  {  
+		$container-width: $container-width - 50;
+	}
+	/*nth(list, n)*/
+	$font-size:($max-font-size - ($i_breakpoint * $font-size-interval ) + $font-size-interval)/100;
+	body {
+	  min-width:$container-width + px;
+	  font-size: percentage($font-size);
+	}
+	
+	
+	.container {margin-left: auto; margin-right: auto; width: ($container-width) + px;}
+	
+	
+	$margin: $gutter / 2;
+	
+	/* General styles to all columns --------*/
+	$grid-setup-classes: '' ;
+	@for $i from 1 through $columns {
+	  $grid-setup-classes: $grid-setup-classes + $prefix + $i + ', ' ;
+	}
+	
+	#{$grid-setup-classes} {display:block; float: left; position: relative; margin-left: $margin + px; margin-right: $margin + px;
+		img {width:100%; height: auto;}
+	}
+	
+	
+	/* Grid Widths --------*/
+	$base-column: $container-width / $columns;
+	
+	@for $i from 1 through $columns {
+		
+		#{$prefix +$i} {width: $base-column * $i - $gutter + px}  
+	} 
+	
+	
+	@if $push == true {
+		/* Push --------*/
+		@for $i from 1 through $columns {
+			.push_#{$i}{margin-left: $container-width / $columns * $i + px;}
+		}
+	}
+	
+	@if $pull == true {
+		/* Pull --------*/
+		@for $i from 1 through $columns {
+			.pull_#{$i}{margin-left: $container-width / $columns * (-$i) + px;}
+		}
+	}
+	
+	
+	.grid-margins {margin-right:$margin + px; margin-left:$margin + px;}
+	.grid-margin-left{margin-left:$margin + px;}
+	.grid-margin-right{margin-right:$margin + px;}
+	
+	.grid-paddings {padding-right:$margin + px; padding-left:$margin + px;}
+	
+} /* end main mixin */
 
-.container_12 .prefix_5 {
-	padding-left:400px;
-}
 
-.container_12 .prefix_6 {
-	padding-left:480px;
-}
 
-.container_12 .prefix_7 {
-	padding-left:560px;
-}
-
-.container_12 .prefix_8 {
-	padding-left:640px;
-}
-
-.container_12 .prefix_9 {
-	padding-left:720px;
-}
-
-.container_12 .prefix_10 {
-	padding-left:800px;
-}
-
-.container_12 .prefix_11 {
-	padding-left:880px;
+/* iterate over mixin for each breakpoint --------*/
+$i: 1;
+$length-breakpoints: length($breakpoints);
+@each $width in $breakpoints{
+	@if $i == 1 {
+		/*first cycle */	
+		@include build-grids($width, $i);
+		
+	} @else if $i == $length-breakpoints {
+		/*last cycle */	
+		
+		@media only screen and (max-width: (nth($breakpoints,($i - 1)) - 1) + px) {  
+		  @include build-grids($width, $i);
+		}
+		
+	} @else {
+		/*middle cycles */	
+	 /*.working {width: $width; height:nth($breakpoints, ($i - 1) ) }*/
+	 	
+		@media only screen and (min-width: $width + px) and (max-width: (nth($breakpoints,($i - 1)) - 1) + px) {  
+		  @include build-grids($width, $i);
+		  
+		}
+	
+	}
+	
+	$i: $i + 1;
+	
 }
 
 
-
-/* Suffix Extra Space >> 12 Columns
-----------------------------------------------------------------------------------------------------*/
-
-
-.container_12 .suffix_1 {
-	padding-right:80px;
-}
-
-.container_12 .suffix_2 {
-	padding-right:160px;
-}
-
-.container_12 .suffix_3 {
-	padding-right:240px;
-}
-
-.container_12 .suffix_4 {
-	padding-right:320px;
-}
-
-.container_12 .suffix_5 {
-	padding-right:400px;
-}
-
-.container_12 .suffix_6 {
-	padding-right:480px;
-}
-
-.container_12 .suffix_7 {
-	padding-right:560px;
-}
-
-.container_12 .suffix_8 {
-	padding-right:640px;
-}
-
-.container_12 .suffix_9 {
-	padding-right:720px;
-}
-
-.container_12 .suffix_10 {
-	padding-right:800px;
-}
-
-.container_12 .suffix_11 {
-	padding-right:880px;
-}
-
-
-
-/* Push Space >> 12 Columns
-----------------------------------------------------------------------------------------------------*/
-
-
-.container_12 .push_1 {
-	margin-left:80px;
-}
-
-.container_12 .push_2 {
-	margin-left:160px;
-}
-
-.container_12 .push_3 {
-	margin-left:240px;
-}
-
-.container_12 .push_4 {
-	margin-left:320px;
-}
-
-.container_12 .push_5 {
-	margin-left:400px;
-}
-
-.container_12 .push_6 {
-	margin-left:480px;
-}
-
-.container_12 .push_7 {
-	margin-left:560px;
-}
-
-.container_12 .push_8 {
-	margin-left:640px;
-}
-
-.container_12 .push_9 {
-	margin-left:720px;
-}
-
-.container_12 .push_10 {
-	margin-left:800px;
-}
-
-.container_12 .push_11 {
-	margin-left:880px;
-}
-
-
-
-/* Pull Space >> 12 Columns
-----------------------------------------------------------------------------------------------------*/
-
-
-.container_12 .pull_1 {
-	margin-left:-80px;
-}
-
-.container_12 .pull_2 {
-	margin-left:-160px;
-}
-
-.container_12 .pull_3 {
-	margin-left:-240px;
-}
-
-.container_12 .pull_4 {
-	margin-left:-320px;
-}
-
-.container_12 .pull_5 {
-	margin-left:-400px;
-}
-
-.container_12 .pull_6 {
-	margin-left:-480px;
-}
-
-.container_12 .pull_7 {
-	margin-left:-560px;
-}
-
-.container_12 .pull_8 {
-	margin-left:-640px;
-}
-
-.container_12 .pull_9 {
-	margin-left:-720px;
-}
-
-.container_12 .pull_10 {
-	margin-left:-800px;
-}
-
-.container_12 .pull_11 {
-	margin-left:-880px;
-}
+/* iphone 5 320 x 568 */
 
 
 
 
-/* `Clear Floated Elements
-----------------------------------------------------------------------------------------------------*/
+
+/* Other stuff --------*/
+.alpha {margin-left: 0;}
+.omega {margin-right: 0;}
+
+/* Clear Floated Elements --------*/
 
 /* http://sonspring.com/journal/clearing-floats */
 
-.clear {
-  clear: both;
-  display: block;
-  overflow: hidden;
-  visibility: hidden;
-  width: 0;
-  height: 0;
-}
+.clear {clear: both; display: block; overflow: hidden; visibility: hidden; width: 0; height: 0;}
 
 /* http://www.yuiblog.com/blog/2010/09/27/clearfix-reloaded-overflowhidden-demystified */
 
-.clearfix:before,
-.clearfix:after {
-  content: '\0020';
-  display: block;
-  overflow: hidden;
-  visibility: hidden;
-  width: 0;
-  height: 0;
-}
+.clearfix:before, .clearfix:after { content: '\0020'; display: block; overflow: hidden; visibility: hidden; width: 0; height: 0;}
 
-.clearfix:after {
-  clear: both;
-}
+.clearfix:after {clear: both;}
 
 /*
   The following zoom:1 rule is specifically for IE6 + IE7.
   Move to separate stylesheet if invalid CSS is a problem.
 */
 
-.clearfix {
-  zoom: 1;
-}
+.clearfix {zoom: 1;}
