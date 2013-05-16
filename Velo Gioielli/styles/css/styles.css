@@ -42,9 +42,10 @@ body {
 /* Typography ----------------------------------------------------------------- */
 body {
   font-size: 100%;
-  /*16px*/
+  /*11px*/
   line-height: 1.375em;
-  color: #000000; }
+  color: #000000;
+  font-family: "soleil"; }
 
 h1 {
   font-size: 3em;
