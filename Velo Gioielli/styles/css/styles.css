@@ -4,6 +4,10 @@
 
 .float-left {
   float: left; }
+  
+.float-right{
+  float:right;	
+}  
 
 .clearfix:after {
   clear: both;
@@ -68,26 +72,27 @@ background-color: #1b0000
 	border: 3px solid rgba(255,154,0,0.7);	
 }
 
-
-
 .purpleborder{
 	
 border: 3px solid rgba(131,0,171,0.7);	
 }
 
 .redborder{
-border: 3px solid rgba(255,0,0,0.61);
+border: 3px solid rgba(255,0,0,0.7);
 	
 }
 
 .greenborder{
-border: 3px solid rgba(0,128,0,0.57);	
+border: 3px solid rgba(0,128,0,0.7);	
 }
 
 .blueborder{
-border: 3px solid rgba(0,0,255,0.72);	
+border: 3px solid rgba(0,0,255,0.7);	
 }
 
+.yellowborder{
+border: 3px solid rgba(255,225,0,0.7);	
+}
 
 /* Layout ----------------------------------------------------------------- */
 body {
@@ -152,7 +157,12 @@ ol {
   margin-bottom: 0px; }
 
 li {
-  margin-left: 0px; }
+  margin-left: 0px;
+    font-size: 1.6em;
+  /*16px*/
+  font-weight: normal;
+  font-family: "Avenir LT Std", Helvetica;
+  margin-bottom: 1.2em; }
 
 a {
   text-decoration: none;
