@@ -40,6 +40,7 @@ body {
   position: relative; }
 
 /* Typography ----------------------------------------------------------------- */
+/* 1em = 10px. Super easy Right? 945px = 94.5em -------------------------------------------- */
 body {
   font-size: 62.5%;
   /*10px*/
@@ -397,7 +398,42 @@ body {
   zoom: 1; }
 
 /* Universal ----------------------------------------------------------------- */
+.wrapper {
+  width: auto;
+  margin: 0 auto; }
+
+.navWrapper {
+  margin: 63.7em auto 0 auto;
+  width: auto;
+  height: 9em;
+  background: transparent url("../images/nav_bg.png") repeat-y;
+  margin: 0 auto; }
+
+.headingWrapper {
+  width: auto;
+  margin: 0 auto; }
+
+.content {
+  z-index: 1000; }
+
 /* Header ----------------------------------------------------------------- */
+.splashSlideshow {
+  display: block;
+  position: absolute;
+  width: 96em;
+  height: 63.7em;
+  left: 50%;
+  margin-left: -48em;
+  z-index: -1000; }
+
+.sectionHeader {
+  z-index: 1000;
+  width: 96em;
+  height: 17.7em; }
+
 /* Nav ----------------------------------------------------------------- */
+.nav {
+  z-index: 1000; }
+
 /* Main ----------------------------------------------------------------- */
 /* Footer ----------------------------------------------------------------- */

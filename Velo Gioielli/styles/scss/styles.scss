@@ -35,6 +35,10 @@ body {background-color: #ffffff; height:100%; position:relative;}
 /* Typography ----------------------------------------------------------------- */
 
 
+/* 1em = 10px. Super easy Right? 945px = 94.5em -------------------------------------------- */
+
+
+
 body {font-size: 62.5%;/*10px*/ line-height: 1.375em ; color: #000000; font-family: "soleil";  }
 
 h1 {
@@ -466,6 +470,9 @@ body {
 
 
 .wrapper{
+
+	width: auto;
+	margin: 0 auto;
 	
 	
 	
@@ -474,17 +481,28 @@ body {
 .navWrapper{
 	
 	
+	margin: 63.7em auto 0 auto;
+	width: auto;
+	height: 9em;
+	background: transparent url('../images/nav_bg.png') repeat-y;
+	margin: 0 auto;
+	
 	
 }
 
 
 .headingWrapper{
+
+	width: auto;
+	margin: 0 auto;
 	
 	
 	
 }
 
 .content{
+
+	z-index: 1000;
 	
 	
 	
@@ -494,12 +512,25 @@ body {
 /* Header ----------------------------------------------------------------- */
 
 .splashSlideshow{
+
+	display: block;
+	position: absolute;
+	width: 96em;
+	height: 63.7em;
+	left: 50%;
+	margin-left: -48em;
+	z-index: -1000;
 	
 	
 	
 }
 
 .sectionHeader{
+
+	z-index: 1000;
+	width: 96em;
+	height:17.7em;
+
 	
 	
 	
@@ -509,6 +540,8 @@ body {
 /* Nav ----------------------------------------------------------------- */
 
 .nav{
+
+	z-index: 1000;
 	
 	
 }
@@ -517,6 +550,8 @@ body {
 /* Main ----------------------------------------------------------------- */
 
 .aboutSection{
+
+	
 	
 	
 	
