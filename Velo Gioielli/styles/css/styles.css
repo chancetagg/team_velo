@@ -406,8 +406,7 @@ body {
   margin: 63.7em auto 0 auto;
   width: auto;
   height: 9em;
-  background: transparent url("../images/nav_bg.png") repeat-y;
-  margin: 0 auto; }
+  background: transparent url("../images/nav_bg.png") repeat-y; }
 
 .headingWrapper {
   width: auto;
@@ -429,7 +428,8 @@ body {
 .sectionHeader {
   z-index: 1000;
   width: 96em;
-  height: 17.7em; }
+  height: 17.7em;
+  background: #a71d36; }
 
 /* Nav ----------------------------------------------------------------- */
 .nav {
