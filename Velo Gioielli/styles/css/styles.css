@@ -56,15 +56,15 @@ h1 {
   font-family: "Avenir LT Std", Helvetica; }
 
 h2 {
-  font-size: 1.6em;
-  /*16px*/
+  font-size: 2em;
+  /*20px*/
   line-height: 1.2em;
   font-weight: normal;
   font-family: "Avenir LT Std", Helvetica; }
 
 h3 {
-  font-size: 1.2em;
-  /*12px*/
+  font-size: 1.6em;
+  /*16px*/
   font-weight: normal;
   font-family: "Avenir LT Std", Helvetica; }
 
@@ -85,8 +85,8 @@ h5 {
   margin-bottom: 11px; }
 
 p {
-  font-size: 1.1em;
-  /*11px*/
+  font-size: 1.6em;
+  /*16px*/
   font-weight: normal;
   font-family: "Avenir LT Std", Helvetica;
   margin-bottom: 1.2em; }
