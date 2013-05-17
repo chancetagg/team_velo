@@ -60,6 +60,11 @@ background-color: #ffcc00;
 background-color: #EFE7BE;	
 }
 
+.bglightgray{
+background-color:rgba(189,189,189,0.74)	
+}
+
+
 .bgwhite{
 background-color: #f4f3f1;		
 }
@@ -114,20 +119,20 @@ h1 {
   /*46px*/
   line-height: 1em;
   font-weight: normal;
-  font-family: "Avenir LT Std", Helvetica; }
+  font-family: "Avenir LT Std", Helvetica,  Arial, sans-serif; }
 
 h2 {
   font-size: 2em;
   /*20px*/
   line-height: 1.2em;
   font-weight: normal;
-  font-family: "Avenir LT Std", Helvetica; }
+  font-family: "Avenir LT Std", Helvetica, Arial, sans-serif; }
 
 h3 {
   font-size: 1.6em;
   /*16px*/
   font-weight: normal;
-  font-family: "Avenir LT Std", Helvetica; }
+  font-family: "Avenir LT Std", Helvetica,  Arial, sans-serif; }
 
 h4 {
   font-size: 1.3125em;
@@ -149,7 +154,7 @@ p {
   font-size: 1.6em;
   /*16px*/
   font-weight: normal;
-  font-family: "Avenir LT Std", Helvetica;
+  font-family: "Avenir LT Std", Helvetica,  Arial, sans-serif;
   margin-bottom: 1.2em; }
 
 ul,
@@ -161,8 +166,15 @@ li {
     font-size: 1.6em;
   /*16px*/
   font-weight: normal;
-  font-family: "Avenir LT Std", Helvetica;
-  margin-bottom: 1.2em; }
+  font-family: "Avenir LT Std", Helvetica, Arial, sans-serif;
+  margin-bottom: 1.2em; 
+  text-decoration: none;
+  text-align: center;
+  width: 80px;
+  padding: 10px;
+  cursor: pointer;
+  }
+  
 
 a {
   text-decoration: none;
@@ -181,7 +193,7 @@ a:hover {
   font-size: 3.6em;
   /*36px*/
   font-weight: normal;
-  font-family: "Avenir LT Std", Helvetica; }
+  font-family: "Avenir LT Std", Helvetica, Arial, sans-serif; }
 
 /* Variables ----------------------------------------------------------------- */
 /* 960.gs ----------------------------------------------------------------- */
