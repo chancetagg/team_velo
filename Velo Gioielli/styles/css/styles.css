@@ -1,4 +1,9 @@
 /* Misc */
+.center{
+text-align: center;	
+	
+}
+
 .floatnone {
   float: none; }
 
