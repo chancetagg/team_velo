@@ -27,6 +27,76 @@
 }
 
 
+
+
+/* Background Colors ---------------------------------------------------------------- */
+
+.bgred{
+background-color: #FF6633;	
+	
+	
+}
+
+.bgcred{
+background-color: #fd3713;		
+	
+}
+
+.bgblue{
+background-color: #0099CC;	
+}
+
+
+
+.bgyellow{
+background-color: #ffcc00;	
+	
+}
+
+
+.bgcreme{
+background-color: #EFE7BE;	
+	
+}
+
+.bgwhite{
+	
+background-color: #f4f3f1;		
+	
+}
+
+.bgblack{
+	
+background-color: #1b0000	
+	
+}
+
+
+.orangeborder{
+	border: 3px solid rgba(255,154,0,0.7);
+	
+}
+
+
+
+.purpleborder{
+	
+border: 3px solid rgba(131,0,171,0.7);	
+}
+
+.redborder{
+border: 3px solid rgba(255,0,0,0.61);
+	
+}
+
+.greenborder{
+border: 3px solid rgba(0,128,0,0.57);	
+}
+
+.blueborder{
+border: 3px solid rgba(0,0,255,0.72);	
+}
+
 /* Layout ----------------------------------------------------------------- */
 
 body {background-color: #ffffff; height:100%; position:relative;
@@ -113,7 +183,15 @@ color: #888888;
       -ms-transition: all 0.3s ease;
           transition: all 0.3s ease;	
 }	
+
+
+nav{
 	
+	a{
+		color: white;
+		
+	}
+}	
 	
 
 a:hover {
@@ -339,7 +417,29 @@ header{
 }
 
 
+.navButton{
+cursor: pointer;	
+  -webkit-transition: all 0.5s ease;
+     -moz-transition: all 0.5s ease;
+       -o-transition: all 0.5s ease;
+      -ms-transition: all 0.5s ease;
+          transition: all 0.5s ease;	
+	
+}
 
+.navButton:hover{
+color: $red;
+  -webkit-transition: all 0.5s ease;
+     -moz-transition: all 0.5s ease;
+       -o-transition: all 0.5s ease;
+      -ms-transition: all 0.5s ease;
+          transition: all 0.5s ease;	
+	
+	
+
+	
+	
+}
 
 .bgred{
 	
