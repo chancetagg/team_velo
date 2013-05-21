@@ -492,14 +492,16 @@ header{
 		width: auto;
 		height: 19em;
 		background: black;
+		box-shadow: 0px -5px 25px rgba(0, 0, 0, 0.75);
+		-moz-box-shadow: 0px -5px 25px rgba(0, 0, 0, 0.75);
+		-webkit-box-shadow: 0px -5px 25px rgba(0, 0, 0, 0.75);
+		
 		
 
 	.footer{
 		padding: 46px 0 0 0;
 		color: $white;
-		-moz-box-shadow: 0px 2px 20px rgba(0,0,0,0.55);
-		-webkit-box-shadow: 0px 2px 20px rgba(0,0,0,0.55);
-		box-shadow: 0px 2px 20px rgba(0,0,0,0.55);
+		
 			p{
 				margin-top:20px;
 				}
