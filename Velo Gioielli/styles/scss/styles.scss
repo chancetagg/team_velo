@@ -102,12 +102,29 @@ ol {margin-bottom: 0px;
 	
 }
 li {margin-left: 0px;}
-a {text-decoration: none; color: #888888;
+
+
+a {
+text-decoration: none; 
+color: #888888;
+  -webkit-transition: all 0.3s ease;
+     -moz-transition: all 0.3s ease;
+       -o-transition: all 0.3s ease;
+      -ms-transition: all 0.3s ease;
+          transition: all 0.3s ease;	
+}	
 	
 	
-	
+
+a:hover {
+color: #FF4F2C; 
+text-decoration: none;
+  -webkit-transition: all 0.3s ease;
+     -moz-transition: all 0.3s ease;
+       -o-transition: all 0.3s ease;
+      -ms-transition: all 0.3s ease;
+          transition: all 0.3s ease;	
 }
-a:hover {color: #FF4F2C; text-decoration: none;}
 
 .caps {text-transform: uppercase; letter-spacing: 0.1em; font-size: .8em;}
 

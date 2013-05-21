@@ -108,11 +108,21 @@ li {
 
 a {
   text-decoration: none;
-  color: #888888; }
+  color: #888888;
+  -webkit-transition: all 0.3s ease;
+  -moz-transition: all 0.3s ease;
+  -o-transition: all 0.3s ease;
+  -ms-transition: all 0.3s ease;
+  transition: all 0.3s ease; }
 
 a:hover {
   color: #FF4F2C;
-  text-decoration: none; }
+  text-decoration: none;
+  -webkit-transition: all 0.3s ease;
+  -moz-transition: all 0.3s ease;
+  -o-transition: all 0.3s ease;
+  -ms-transition: all 0.3s ease;
+  transition: all 0.3s ease; }
 
 .caps {
   text-transform: uppercase;
