@@ -1,20 +1,16 @@
 
 
 
-
-
-/*
-
 function slideSwitch() {
     var $active = $('#slideshow .slide.active');
 
     if ( $active.length == 0 ) $active = $('#slideshow .slide:last');
 
-    // use this to pull the images in the order they appear in the markup
+    // use this to pull the divs in the order they appear in the markup
     var $next =  $active.next().length ? $active.next()
         : $('#slideshow .slide:first');
 
-    
+    // uncomment below to pull the divs randomly
     // var $sibs  = $active.siblings();
     // var rndNum = Math.floor(Math.random() * $sibs.length );
     // var $next  = $( $sibs[ rndNum ] );
@@ -29,13 +25,12 @@ function slideSwitch() {
         });
 }
 
-
-*/
-
+$(function() {
+    setInterval( "slideSwitch()", 5000 );
+});
 
 
 $(document).ready(function() {
-
 //alert('js working')
 	
 	//Calculate the height of <header>
@@ -57,12 +52,4 @@ $(document).ready(function() {
             $('.navBar').removeClass('fixed').next().css('padding-top','0');
         }
     });
-    
-    
-    
-    
-    
-    
-    
-    
 });
