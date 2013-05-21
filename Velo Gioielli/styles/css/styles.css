@@ -104,7 +104,8 @@ ol {
   margin-bottom: 1.2em; }
 
 li {
-  margin-left: 0px; }
+  margin-left: 0px;
+  text-decoration: none; }
 
 a {
   text-decoration: none;
