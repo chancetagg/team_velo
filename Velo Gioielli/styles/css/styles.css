@@ -159,9 +159,9 @@ nav:after {
   margin: 0 auto; }
 
 .navWrapper {
+  display: block;
   margin: 0 auto;
   width: auto;
-  display: block;
   height: 9em;
   background: transparent url("../../images/nav_bg.png") repeat-x;
   z-index: 1000; }
@@ -233,6 +233,14 @@ header {
     margin: 0 1.4em; }
   .nav .noMarginLeft {
     margin: 0 1.4em 0 0; }
+
+.navBar {
+  display: block;
+  margin: 0 auto;
+  width: auto;
+  height: 9em;
+  background: transparent url("../../images/nav_bg.png") repeat-x;
+  z-index: 1000; }
 
 .bgred {
   background: #a71d36;
@@ -344,7 +352,9 @@ bottomFooter {
 
 /* ----- JS Styles--------------------------------------------------------- */
 .fixed {
-  position: fixed; }
+  position: fixed;
+  width: 100%;
+  margin: 0 auto; }
 
 .background {
   position: fixed;

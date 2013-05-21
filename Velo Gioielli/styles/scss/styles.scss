@@ -173,23 +173,20 @@ nav:after {
 
 	
 }	
-	
 
+.navWrapper{	
 
-
-
-
-
-.navWrapper{
-	
-	
+	display: block;
 	margin: 0 auto;
 	width: auto;
-	display: block;
 	height: 9em;
 	background: transparent url('../../images/nav_bg.png') repeat-x;
 	z-index: 1000;	
 }
+
+
+
+
 .float_right{
 	float: right;	
 }
@@ -322,6 +319,19 @@ header{
 	}
 
 }
+
+
+.navBar{	
+
+	display: block;
+	margin: 0 auto;
+	width: auto;
+	height: 9em;
+	background: transparent url('../../images/nav_bg.png') repeat-x;
+	z-index: 1000;	
+}
+
+
 
 
 
@@ -524,6 +534,8 @@ bottomFooter{
 /* ----- JS Styles--------------------------------------------------------- */
 .fixed {
     position:fixed;
+    width: 100%;
+    margin:0 auto;
     }
 
 .background{
