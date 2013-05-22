@@ -285,6 +285,7 @@ header {
     margin: 0 1.4em 0 0; }
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 .navBar {
   display: block;
   margin: 0 auto;
@@ -293,6 +294,8 @@ header {
   background: transparent url("../../images/nav_bg.png") repeat-x;
   z-index: 1000; }
 =======
+=======
+>>>>>>> c679abd5cbacb6aec3210ccbdfc74ab4946ff333
 .navButton {
   cursor: pointer;
   -webkit-transition: all 0.5s ease;
@@ -312,7 +315,10 @@ header {
 nav a {
   text-align: center;
   margin: -.9em; }
+<<<<<<< HEAD
 >>>>>>> 02370376ea78571d9cb9725b93f0887a2fbc8123
+=======
+>>>>>>> c679abd5cbacb6aec3210ccbdfc74ab4946ff333
 
 .bgred {
   background: #a71d36;
