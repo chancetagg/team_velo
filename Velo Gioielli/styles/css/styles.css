@@ -1,55 +1,493 @@
-/*
-Syntax error: Invalid CSS after "}": expected selector or at-rule, was "<<<<<<< HEAD"
-        on line 174 of scss/styles.scss
+/* Misc */
+.floatnone {
+  float: none; }
 
-169: 	
-170: 	margin-bottom: 1.2em;
-171: 	
-172: 	
-173: }
-174: <<<<<<< HEAD
-175: <<<<<<< HEAD
-176: li {margin-left: 0px;
-177: 	text-decoration: none;
-178: }
-179: a {text-decoration: none; color: #888888;
+.float-left {
+  float: left; }
 
-Backtrace:
-scss/styles.scss:174
-/Library/Ruby/Gems/1.8/gems/sass-3.2.7/bin/../lib/sass/../sass/scss/parser.rb:1148:in `expected'
-/Library/Ruby/Gems/1.8/gems/sass-3.2.7/bin/../lib/sass/../sass/scss/parser.rb:1084:in `expected'
-/Library/Ruby/Gems/1.8/gems/sass-3.2.7/bin/../lib/sass/../sass/scss/parser.rb:28:in `parse'
-/Library/Ruby/Gems/1.8/gems/sass-3.2.7/bin/../lib/sass/../sass/engine.rb:342:in `_to_tree'
-/Library/Ruby/Gems/1.8/gems/sass-3.2.7/bin/../lib/sass/../sass/engine.rb:315:in `_render'
-/Library/Ruby/Gems/1.8/gems/sass-3.2.7/bin/../lib/sass/../sass/engine.rb:262:in `render'
-/Library/Ruby/Gems/1.8/gems/sass-3.2.7/bin/../lib/sass/../sass/plugin/compiler.rb:341:in `update_stylesheet'
-/Library/Ruby/Gems/1.8/gems/sass-3.2.7/bin/../lib/sass/../sass/plugin/compiler.rb:203:in `update_stylesheets'
-/Library/Ruby/Gems/1.8/gems/sass-3.2.7/bin/../lib/sass/../sass/plugin/compiler.rb:201:in `each'
-/Library/Ruby/Gems/1.8/gems/sass-3.2.7/bin/../lib/sass/../sass/plugin/compiler.rb:201:in `update_stylesheets'
-/Library/Ruby/Gems/1.8/gems/sass-3.2.7/bin/../lib/sass/../sass/plugin/compiler.rb:299:in `watch'
-/Library/Ruby/Gems/1.8/gems/sass-3.2.7/vendor/listen/lib/listen/multi_listener.rb:108:in `call'
-/Library/Ruby/Gems/1.8/gems/sass-3.2.7/vendor/listen/lib/listen/multi_listener.rb:108:in `on_change'
-/Library/Ruby/Gems/1.8/gems/sass-3.2.7/vendor/listen/lib/listen/multi_listener.rb:117:in `initialize_adapter'
-/Library/Ruby/Gems/1.8/gems/sass-3.2.7/vendor/listen/lib/listen/adapter.rb:198:in `call'
-/Library/Ruby/Gems/1.8/gems/sass-3.2.7/vendor/listen/lib/listen/adapter.rb:198:in `report_changes'
-/Library/Ruby/Gems/1.8/gems/sass-3.2.7/vendor/listen/lib/listen/adapter.rb:210:in `poll_changed_dirs'
-/Library/Ruby/Gems/1.8/gems/sass-3.2.7/vendor/listen/lib/listen/adapters/darwin.rb:38:in `start'
-/Library/Ruby/Gems/1.8/gems/sass-3.2.7/vendor/listen/lib/listen/adapters/darwin.rb:38:in `initialize'
-/Library/Ruby/Gems/1.8/gems/sass-3.2.7/vendor/listen/lib/listen/adapters/darwin.rb:38:in `new'
-/Library/Ruby/Gems/1.8/gems/sass-3.2.7/vendor/listen/lib/listen/adapters/darwin.rb:38:in `start'
-/Library/Ruby/Gems/1.8/gems/sass-3.2.7/vendor/listen/lib/listen/multi_listener.rb:44:in `start'
-/Library/Ruby/Gems/1.8/gems/sass-3.2.7/bin/../lib/sass/../sass/plugin/compiler.rb:307:in `watch'
-/Library/Ruby/Gems/1.8/gems/sass-3.2.7/bin/../lib/sass/../sass/plugin.rb:107:in `send'
-/Library/Ruby/Gems/1.8/gems/sass-3.2.7/bin/../lib/sass/../sass/plugin.rb:107:in `method_missing'
-/Library/Ruby/Gems/1.8/gems/sass-3.2.7/bin/../lib/sass/../sass/exec.rb:445:in `watch_or_update'
-/Library/Ruby/Gems/1.8/gems/sass-3.2.7/bin/../lib/sass/../sass/exec.rb:307:in `process_result'
-/Library/Ruby/Gems/1.8/gems/sass-3.2.7/bin/../lib/sass/../sass/exec.rb:41:in `parse'
-/Library/Ruby/Gems/1.8/gems/sass-3.2.7/bin/../lib/sass/../sass/exec.rb:21:in `parse!'
-/Library/Ruby/Gems/1.8/gems/sass-3.2.7/bin/sass:9
-/usr/bin/sass:19:in `load'
-/usr/bin/sass:19
-*/
-body:before {
-  white-space: pre;
-  font-family: monospace;
-  content: "Syntax error: Invalid CSS after \"}\": expected selector or at-rule, was \"<<<<<<< HEAD\"\A         on line 174 of scss/styles.scss\A \A 169: 	\A 170: 	margin-bottom: 1.2em;\A 171: 	\A 172: 	\A 173: }\A 174: <<<<<<< HEAD\A 175: <<<<<<< HEAD\A 176: li {margin-left: 0px;\A 177: 	text-decoration: none;\A 178: }\A 179: a {text-decoration: none; color: #888888;"; }
+.clearfix:after {
+  clear: both;
+  content: ".";
+  display: block;
+  height: 0;
+  line-height: 0;
+  visibility: hidden; }
+
+.clearit {
+  clear: both;
+  font-size: 0;
+  line-height: 0;
+  height: 0; }
+
+.clear-both {
+  clear: both; }
+
+.add-bottom-margin {
+  margin-bottom: 25px; }
+
+::selection {
+  background: #FF4F2C;
+  /* Safari */ }
+
+::-moz-selection {
+  background: #FF4F2C;
+  /* Firefox */ }
+
+/* Background Colors ---------------------------------------------------------------- */
+.bgred {
+  background-color: #FF6633; }
+
+.bgcred {
+  background-color: #fd3713; }
+
+.bgblue {
+  background-color: #0099CC; }
+
+.bgyellow {
+  background-color: #ffcc00; }
+
+.bgcreme {
+  background-color: #EFE7BE; }
+
+.bgwhite {
+  background-color: #f4f3f1; }
+
+.bgblack {
+  background-color: #1b0000; }
+
+.orangeborder {
+  border: 3px solid rgba(255, 154, 0, 0.7); }
+
+.purpleborder {
+  border: 3px solid rgba(131, 0, 171, 0.7); }
+
+.redborder {
+  border: 3px solid rgba(255, 0, 0, 0.61); }
+
+.greenborder {
+  border: 3px solid rgba(0, 128, 0, 0.57); }
+
+.blueborder {
+  border: 3px solid rgba(0, 0, 255, 0.72); }
+
+/* Layout ----------------------------------------------------------------- */
+body {
+  background-color: #ffffff;
+  height: 100%;
+  position: relative; }
+
+/* Typography ----------------------------------------------------------------- */
+/* 1em = 10px. Super easy Right? 945px = 94.5em -------------------------------------------- */
+body {
+  font-size: 62.5%;
+  /*10px*/
+  line-height: 1.375em;
+  color: #333333;
+  font-family: "Avenir LT Std" "soleil"; }
+
+h1 {
+  font-size: 5.25em;
+  /*46px*/
+  line-height: 1.2em;
+  letter-spacing: 1.6;
+  font-weight: normal;
+  font-family: "Avenir LT Std", Helvetica;
+  font-weight: 800;
+  margin: 55px auto 32px auto;
+  text-align: center; }
+
+h2 {
+  font-size: 3.5em;
+  /*20px*/
+  line-height: 1.33em;
+  font-weight: normal;
+  font-family: "Avenir LT Std", Helvetica;
+  margin: 0 0 17px 0; }
+
+h3 {
+  font-size: 2em;
+  /*16px*/
+  font-weight: normal;
+  letter-spacing: 1.5;
+  font-family: "Avenir LT Std", Helvetica;
+  font-weight: 800; }
+
+h4 {
+  font-size: 1.3125em;
+  /*21px*/
+  font-weight: normal; }
+
+h5 {
+  font-family: Helvetica, Arial, sans-serif;
+  font-size: 15px;
+  /*48px*/
+  color: #888888;
+  font-weight: bold;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  line-height: 22px;
+  margin-bottom: 11px; }
+
+p {
+  font-size: 1.6em;
+  /*16px*/
+  line-height: 120%;
+  font-weight: lighter;
+  font-family: "Avenir LT Std", Helvetica; }
+
+ul,
+ol {
+  margin-bottom: 0px;
+  margin-bottom: 1.2em; }
+
+li {
+  margin-left: 0px;
+  text-decoration: none; }
+
+a {
+  text-decoration: none;
+  color: #888888; }
+  a li {
+    margin-left: 0px; }
+  a a {
+    text-decoration: none;
+    color: #888888;
+    -webkit-transition: all 0.3s ease;
+    -moz-transition: all 0.3s ease;
+    -o-transition: all 0.3s ease;
+    -ms-transition: all 0.3s ease;
+    transition: all 0.3s ease; }
+  a a {
+    color: white; }
+
+a:hover {
+  color: #FF4F2C;
+  text-decoration: none;
+  -webkit-transition: all 0.3s ease;
+  -moz-transition: all 0.3s ease;
+  -o-transition: all 0.3s ease;
+  -ms-transition: all 0.3s ease;
+  transition: all 0.3s ease; }
+
+.caps {
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+  font-size: .8em; }
+
+.blockQuote {
+  font-size: 3.3em;
+  /*36px*/
+  line-height: 120%;
+  font-weight: normal;
+  font-family: "Avenir LT Std", Helvetica;
+  margin: 50px 40px; }
+
+/* Variables ----------------------------------------------------------------- */
+/* Universal ----------------------------------------------------------------- */
+#wrapper {
+  width: auto;
+  margin: 0 auto; }
+
+nav {
+  width: auto;
+  margin: 0 auto !important;
+  text-align: center;
+  z-index: 4000;
+  position: relative; }
+
+nav:after {
+  position: absolute;
+  width: 96em;
+  margin: 0 auto;
+  display: block;
+  position: absolute; }
+  nav:after .navWrapper {
+    left: 50%;
+    margin-left: -48em;
+    width: auto;
+    height: 9em;
+    background: transparent url("../../images/nav_bg.png") repeat-x;
+    z-index: 1000; }
+
+#content {
+  margin: 0 auto; }
+
+.navWrapper {
+  display: block;
+  margin: 0 auto;
+  width: auto;
+  height: 9em;
+  background: transparent url("../../images/nav_bg.png") repeat-x;
+  z-index: 1000; }
+
+.float_right {
+  float: right; }
+
+/* Header ----------------------------------------------------------------- */
+header {
+  margin: 0;
+  height: 637px;
+  text-align: center; }
+
+.headingWrapper {
+  width: auto;
+  margin: 0 auto; }
+  .headingWrapper h3 {
+    font-weight: lighter; }
+
+.splashSlideshow {
+  display: block;
+  position: absolute;
+  width: 96em;
+  height: 637px;
+  left: 50%;
+  margin-left: -48em;
+  z-index: 50; }
+
+.sectionHeader {
+  /*background: $red;*/
+  color: white;
+  z-index: 50;
+  width: 96em;
+  height: 17.7em; }
+
+.navlogo {
+  float: left; }
+
+.splashHeader {
+  display: block;
+  position: absolute;
+  left: 50%;
+  margin-left: -48em; }
+
+.attributes {
+  color: white;
+  position: absolute;
+  left: 50%;
+  margin-left: -480px;
+  top: 200px; }
+  .attributes .blockQuote {
+    text-align: left; }
+
+.sectionHeaderSub {
+  margin: 0 2em 0 0;
+  color: white; }
+
+/* Nav ----------------------------------------------------------------- */
+.nav {
+  display: block;
+  font-family: "Avenir LT Std", Helvetica;
+  font-size: 1.6em;
+  z-index: 1000;
+  color: white;
+  padding: 2em 0;
+  margin: 0 auto;
+  text-align: center; }
+  .nav li {
+    margin: 0 1.4em; }
+  .nav .noMarginLeft {
+    margin: 0 1.4em 0 0; }
+
+.navBar {
+  display: block;
+  margin: 0 auto;
+  width: auto;
+  height: 9em;
+  background: transparent url("../../images/nav_bg.png") repeat-x;
+  z-index: 1000; }
+
+.navButton {
+  cursor: pointer;
+  -webkit-transition: all 0.5s ease;
+  -moz-transition: all 0.5s ease;
+  -o-transition: all 0.5s ease;
+  -ms-transition: all 0.5s ease;
+  transition: all 0.5s ease; }
+
+.navButton:hover {
+  color: #a71d36;
+  -webkit-transition: all 0.5s ease;
+  -moz-transition: all 0.5s ease;
+  -o-transition: all 0.5s ease;
+  -ms-transition: all 0.5s ease;
+  transition: all 0.5s ease; }
+
+nav a {
+  text-align: center;
+  margin: -.9em; }
+
+.bgred {
+  background: #a71d36;
+  text-align: center;
+  padding: 1.9em 0.95em; }
+
+.cleanbgred {
+  background-color: #a71d36; }
+
+/* Main ----------------------------------------------------------------- */
+.velo {
+  position: absolute;
+  left: 50%;
+  margin-left: -480px;
+  top: 360px; }
+
+.aboutHeader {
+  display: block;
+  height: 18em;
+  background: transparent url("../../images/banner1.png") no-repeat 0 0; }
+
+/* --COLLECTION-------------------------------------------------------------------------- */
+.lifestylePic {
+  display: block;
+  margin: 50px 10px 0 10px; }
+
+.collectionHeader {
+  display: block;
+  height: 18em;
+  background: transparent url("../../images/banner2.png") no-repeat 0 0; }
+
+.collectionSubhead {
+  display: block;
+  float: left; }
+  .collectionSubhead h1 {
+    text-align: left;
+    margin: 50px 0;
+    letter-spacing: 1; }
+
+.collectionDescription {
+  display: block;
+  margin: 50px 0 0 10px; }
+
+.collectionImage {
+  display: block; }
+
+.collectionTitle {
+  display: block;
+  width: 300px;
+  margin: 0 0 50px 0;
+  padding: 10px 10px 0 10px; }
+
+/* --CONNECTION-------------------------------------------------------------------------- */
+.connectionSection .retailLocations {
+  padding: 5em 0; }
+.connectionSection .locations {
+  font-weight: normal;
+  line-height: 200%;
+  font-family: "Avenir LT Std", Helvetica;
+  margin-bottom: 80px; }
+  .connectionSection .locations ul {
+    font-size: 1.6em;
+    /*16px*/
+    line-height: 200%;
+    font-weight: lighter;
+    font-family: "Avenir LT Std", Helvetica; }
+  .connectionSection .locations .contact {
+    margin: 90px 0 0 0; }
+    .connectionSection .locations .contact h3 {
+      margin-bottom: 10px; }
+  .connectionSection .locations .facebook {
+    border-bottom: 0.5px solid #333333;
+    border-top: 0.5px solid #333333;
+    margin-right: 100px;
+    padding: 10px 0; }
+  .connectionSection .locations .facebookIcon {
+    display: inline-block;
+    float: left;
+    margin: 0 10px 0 0;
+    background: transparent url(images/facebookIcon.jpg) no-repeat 0 0; }
+.connectionSection .googleMap {
+  display: block;
+  height: 45em;
+  background: #DDD; }
+
+.connectionHeader {
+  background: transparent url("../../images/banner3.png") no-repeat 0 0; }
+
+/* Footer ----------------------------------------------------------------- */
+.footerWrapper {
+  width: auto;
+  height: 19em;
+  background: black;
+  box-shadow: 0px -5px 25px rgba(0, 0, 0, 0.75);
+  -moz-box-shadow: 0px -5px 25px rgba(0, 0, 0, 0.75);
+  -webkit-box-shadow: 0px -5px 25px rgba(0, 0, 0, 0.75); }
+  .footerWrapper .footer {
+    padding: 46px 0 0 0;
+    color: white; }
+    .footerWrapper .footer p {
+      margin-top: 20px; }
+    .footerWrapper .footer a {
+      color: #f9d016; }
+    .footerWrapper .footer a:hover {
+      color: #fce479; }
+
+bottomFooter {
+  margin-top: 5px; }
+
+/* ----- JS Styles--------------------------------------------------------- */
+.fixed {
+  position: fixed;
+  width: 100%;
+  margin: 0 auto; }
+
+.background {
+  position: fixed;
+  width: 100%;
+  top: 0;
+  left: 0;
+  background: transparent url(../../images/nav_bg.png) repeat-x; }
+
+.navGap {
+  margin-top: 90px; }
+
+/*---------SLIDESHOW--------------------------------*/
+.slide {
+  display: block;
+  width: auto; }
+
+#slideshow {
+  position: relative;
+  height: 350px; }
+
+#slideshow .slide {
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 300; }
+
+#slideshow .slide.active {
+  z-index: 500; }
+
+#slideshow .slide.last-active {
+  z-index: 400; }
+
+/*----------Slideshow Text-----------------------------------------------------*/
+#slideshow {
+  position: relative;
+  height: 350px; }
+
+#slideshow .splashHeader {
+  position: absolute;
+  top: 360px;
+  left: 50%;
+  margin-left: -480px;
+  z-index: 305; }
+
+#slideshow .splashHeader.active {
+  z-index: 505; }
+
+#slideshow .splashHeader.last-active {
+  z-index: 405; }
+
+#slideshow .attributes {
+  position: absolute;
+  top: 200px;
+  left: 50%;
+  margin-left: -480px;
+  z-index: 305; }
+
+#slideshow .attributes.active {
+  z-index: 505; }
+
+#slideshow .attributes.last-active {
+  z-index: 405; }
