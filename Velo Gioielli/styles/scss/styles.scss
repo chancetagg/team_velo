@@ -27,6 +27,76 @@
 }
 
 
+
+
+/* Background Colors ---------------------------------------------------------------- */
+
+.bgred{
+background-color: #FF6633;	
+	
+	
+}
+
+.bgcred{
+background-color: #fd3713;		
+	
+}
+
+.bgblue{
+background-color: #0099CC;	
+}
+
+
+
+.bgyellow{
+background-color: #ffcc00;	
+	
+}
+
+
+.bgcreme{
+background-color: #EFE7BE;	
+	
+}
+
+.bgwhite{
+	
+background-color: #f4f3f1;		
+	
+}
+
+.bgblack{
+	
+background-color: #1b0000	
+	
+}
+
+
+.orangeborder{
+	border: 3px solid rgba(255,154,0,0.7);
+	
+}
+
+
+
+.purpleborder{
+	
+border: 3px solid rgba(131,0,171,0.7);	
+}
+
+.redborder{
+border: 3px solid rgba(255,0,0,0.61);
+	
+}
+
+.greenborder{
+border: 3px solid rgba(0,128,0,0.57);	
+}
+
+.blueborder{
+border: 3px solid rgba(0,0,255,0.72);	
+}
+
 /* Layout ----------------------------------------------------------------- */
 
 body {background-color: #ffffff; height:100%; position:relative;
@@ -101,15 +171,46 @@ ol {margin-bottom: 0px;
 	
 	
 }
+<<<<<<< HEAD
 li {margin-left: 0px;
 	text-decoration: none;
 }
 a {text-decoration: none; color: #888888;
 	
+=======
+li {margin-left: 0px;}
+
+
+a {
+text-decoration: none; 
+color: #888888;
+  -webkit-transition: all 0.3s ease;
+     -moz-transition: all 0.3s ease;
+       -o-transition: all 0.3s ease;
+      -ms-transition: all 0.3s ease;
+          transition: all 0.3s ease;	
+}	
+
+
+nav{
+>>>>>>> 02370376ea78571d9cb9725b93f0887a2fbc8123
 	
+	a{
+		color: white;
+		
+	}
+}	
 	
+
+a:hover {
+color: #FF4F2C; 
+text-decoration: none;
+  -webkit-transition: all 0.3s ease;
+     -moz-transition: all 0.3s ease;
+       -o-transition: all 0.3s ease;
+      -ms-transition: all 0.3s ease;
+          transition: all 0.3s ease;	
 }
-a:hover {color: #FF4F2C; text-decoration: none;}
 
 .caps {text-transform: uppercase; letter-spacing: 0.1em; font-size: .8em;}
 
@@ -321,6 +422,7 @@ header{
 }
 
 
+<<<<<<< HEAD
 .navBar{	
 
 	display: block;
@@ -334,6 +436,38 @@ header{
 
 
 
+=======
+.navButton{
+cursor: pointer;	
+  -webkit-transition: all 0.5s ease;
+     -moz-transition: all 0.5s ease;
+       -o-transition: all 0.5s ease;
+      -ms-transition: all 0.5s ease;
+          transition: all 0.5s ease;	
+	
+}
+
+.navButton:hover{
+color: $red;
+  -webkit-transition: all 0.5s ease;
+     -moz-transition: all 0.5s ease;
+       -o-transition: all 0.5s ease;
+      -ms-transition: all 0.5s ease;
+          transition: all 0.5s ease;	
+}
+
+
+	
+nav a{
+text-align: center;
+margin: -.9em;	
+	
+	
+}	
+
+	
+	
+>>>>>>> 02370376ea78571d9cb9725b93f0887a2fbc8123
 
 
 .bgred{
