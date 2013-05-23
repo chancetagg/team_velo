@@ -180,7 +180,7 @@ a:hover {
 
 .blockQuote {
   font-size: 3.3em;
-  /*36px*/
+  /*33px*/
   line-height: 120%;
   font-weight: normal;
   font-family: "Avenir LT Std", Helvetica;
@@ -238,6 +238,9 @@ header {
   margin: 0 auto; }
   .headingWrapper h3 {
     font-weight: lighter; }
+
+.splash {
+  background: url("../../images/kindajean.png") repeat 0 0; }
 
 .splashSlideshow {
   display: block;

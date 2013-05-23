@@ -56,11 +56,14 @@ $(document).ready(function() {
 			
 			// if yes, add "fixed" class to the <nav>
 			// add padding top to the #content (value is same as the height of the nav)
-            $('.navBar').addClass('fixed').css('top','0').next.css('padding-top','90px');
+            $('.navBar').addClass('fixed').css('top','0');
+            $('#content').css('padding-top','90px');
         } else {
 			
 			// when scroll up or less than aboveHeight, remove the "fixed" class, and the padding-top
-            $('.navBar').removeClass('fixed').next().css('padding-top','0');
+            $('.navBar').removeClass('fixed');
+            $('#content').css('padding-top','0');
+
         }
     });
     
