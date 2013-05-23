@@ -1,3 +1,7 @@
+/* GOOGLE MAPS STUFF */
+#map-canvas {
+  height: 100%; }
+
 /* Misc */
 .floatnone {
   float: none; }
@@ -146,15 +150,19 @@ li {
 
 a {
   text-decoration: none;
-  color: #888888;
-  -webkit-transition: all 0.3s ease;
-  -moz-transition: all 0.3s ease;
-  -o-transition: all 0.3s ease;
-  -ms-transition: all 0.3s ease;
-  transition: all 0.3s ease; }
-
-nav a {
-  color: white; }
+  color: #888888; }
+  a li {
+    margin-left: 0px; }
+  a a {
+    text-decoration: none;
+    color: #888888;
+    -webkit-transition: all 0.3s ease;
+    -moz-transition: all 0.3s ease;
+    -o-transition: all 0.3s ease;
+    -ms-transition: all 0.3s ease;
+    transition: all 0.3s ease; }
+  a a {
+    color: white; }
 
 a:hover {
   color: #FF4F2C;
@@ -284,8 +292,6 @@ header {
   .nav .noMarginLeft {
     margin: 0 1.4em 0 0; }
 
-<<<<<<< HEAD
-<<<<<<< HEAD
 .navBar {
   display: block;
   margin: 0 auto;
@@ -293,9 +299,7 @@ header {
   height: 9em;
   background: transparent url("../../images/nav_bg.png") repeat-x;
   z-index: 1000; }
-=======
-=======
->>>>>>> c679abd5cbacb6aec3210ccbdfc74ab4946ff333
+
 .navButton {
   cursor: pointer;
   -webkit-transition: all 0.5s ease;
@@ -315,10 +319,6 @@ header {
 nav a {
   text-align: center;
   margin: -.9em; }
-<<<<<<< HEAD
->>>>>>> 02370376ea78571d9cb9725b93f0887a2fbc8123
-=======
->>>>>>> c679abd5cbacb6aec3210ccbdfc74ab4946ff333
 
 .bgred {
   background: #a71d36;
