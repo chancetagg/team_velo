@@ -3,16 +3,15 @@ $(document).ready(function() {
 		// jQuery code goes here
 		$(window).stellar();
 
-
+ alert('js working');
 
 
 
   // LINK TO SECTION OF PAGE
     $('.linkzero').click(function() {
-
-        alert('js working');
         // TARGET --> SPEED
-        $(window).scrollTo(".aboutSection", 800);
+        $(window).scrollTo(".tester", 800);
+          
     });
     
     // LINK TO SECTION OF PAGE

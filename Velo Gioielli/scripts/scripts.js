@@ -10,7 +10,7 @@ $(document).ready(function() {
   // LINK TO SECTION OF PAGE
     $('.linkzero').click(function() {
 
-        alert('js working');
+       /*  alert('js working'); */
         // TARGET --> SPEED
         $(window).scrollTo(".aboutSection", 800);
     });
