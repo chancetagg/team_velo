@@ -12,20 +12,20 @@ $(document).ready(function() {
 
        /*  alert('js working'); */
         // TARGET --> SPEED
-        $(window).scrollTo(".aboutSection", 800);
+        $(window).scrollTo(".aboutHeader", 800);
     });
     
     // LINK TO SECTION OF PAGE
     $('.linkone').click(function() {
         // TARGET --> SPEED
-        $(window).scrollTo(".sectionHeaderSub", 800);
+        $(window).scrollTo(".collectionHeader", 800);
         
     });
         
     // LINK TO SECTION OF PAGE
     $('.linktwo').click(function() {
         // TARGET --> SPEED
-        $(window).scrollTo(".sectionHeaderSub", 800);
+        $(window).scrollTo(".connectionHeader", 800);
     });
         
         // LINK TO SECTION OF PAGE
