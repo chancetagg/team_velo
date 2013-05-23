@@ -1,6 +1,11 @@
+	
+
 
 $(document).ready(function() {
 		// jQuery code goes here
+	
+		
+		
 		$(window).stellar();
 
 
@@ -34,16 +39,12 @@ $(document).ready(function() {
         $(window).scrollTo(".wholesaleSubhead", 800);
     });
 
-  
-  /**/
-  
-  
-  
-  
-  
-  
-  
 
 
-});
+
+
+
+});  
+
+
 
