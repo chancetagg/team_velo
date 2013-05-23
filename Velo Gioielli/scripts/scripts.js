@@ -6,12 +6,15 @@ $(document).ready(function() {
 
 
 
+
   // LINK TO SECTION OF PAGE
     $('.linkzero').click(function() {
+
+        alert('js working');
         // TARGET --> SPEED
         $(window).scrollTo(".aboutSection", 800);
-        
     });
+    
     // LINK TO SECTION OF PAGE
     $('.linkone').click(function() {
         // TARGET --> SPEED
@@ -31,6 +34,14 @@ $(document).ready(function() {
         $(window).scrollTo(".wholesaleSubhead", 800);
     });
 
+  
+  /**/
+  
+  
+  
+  
+  
+  
   
 
 
