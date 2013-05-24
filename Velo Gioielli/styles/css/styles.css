@@ -137,7 +137,7 @@ p {
   /*16px*/
   line-height: 120%;
   font-weight: lighter;
-  font-family: "Avenir LT Std", Helvetica; }
+  font-family: "Avenir LT Std", Helvetica arial sans-serif; }
 
 ul,
 ol {
@@ -150,7 +150,7 @@ li {
 
 a {
   text-decoration: none;
-  color: #888888; }
+  color: gold; }
   a li {
     margin-left: 0px; }
   a a {
@@ -161,17 +161,23 @@ a {
     -o-transition: all 0.3s ease;
     -ms-transition: all 0.3s ease;
     transition: all 0.3s ease; }
+  a li a:hover {
+    color: green; }
   a a {
-    color: white; }
+    color: white;
+    -webkit-transition: all 0.5s ease;
+    -moz-transition: all 0.3s ease;
+    -o-transition: all 0.3s ease;
+    -ms-transition: all 0.3s ease;
+    transition: all 0.3s ease; }
 
 a:hover {
-  color: #FF4F2C;
-  text-decoration: none;
-  -webkit-transition: all 0.3s ease;
-  -moz-transition: all 0.3s ease;
-  -o-transition: all 0.3s ease;
-  -ms-transition: all 0.3s ease;
-  transition: all 0.3s ease; }
+  color: white;
+  -webkit-transition: all 0.5s ease;
+  -moz-transition: all 0.5s ease;
+  -o-transition: all 0.5s ease;
+  -ms-transition: all 0.5s ease;
+  transition: all 0.5s ease; }
 
 .caps {
   text-transform: uppercase;
@@ -306,7 +312,8 @@ header {
   background: #333;
   box-shadow: 0px 0px 20px black;
   -moz-box-shadow: 0px 0px 20px black;
-  -webkit-box-shadow: 0px 0px 20px black; }
+  -webkit-box-shadow: 0px 0px 20px black;
+  overflow: hidden; }
 
 .navButton {
   cursor: pointer;
@@ -331,7 +338,7 @@ nav a {
 .bgred {
   background: #a71d36;
   text-align: center;
-  padding: 1.9em 0.95em; }
+  padding: 2em 0.95em; }
 
 .cleanbgred {
   background-color: #a71d36; }
@@ -379,6 +386,21 @@ nav a {
   margin: 0 0 50px 0;
   padding: 10px 10px 0 10px; }
 
+h2 a {
+  -webkit-transition: all 0.5s ease;
+  -moz-transition: all 0.5s ease;
+  -o-transition: all 0.5s ease;
+  -ms-transition: all 0.5s ease;
+  transition: all 0.5s ease; }
+
+h2 a:hover {
+  color: #A71D36;
+  -webkit-transition: all 0.5s ease;
+  -moz-transition: all 0.5s ease;
+  -o-transition: all 0.5s ease;
+  -ms-transition: all 0.5s ease;
+  transition: all 0.5s ease; }
+
 /* --CONNECTION-------------------------------------------------------------------------- */
 .connectionSection .retailLocations {
   padding: 5em 0; }
@@ -415,6 +437,21 @@ nav a {
 .connectionHeader {
   background: transparent url("../../images/banner3.png") no-repeat 0 0; }
 
+.contact a {
+  -webkit-transition: all 0.5s ease;
+  -moz-transition: all 0.5s ease;
+  -o-transition: all 0.5s ease;
+  -ms-transition: all 0.5s ease;
+  transition: all 0.5s ease; }
+
+p a:hover {
+  color: #A71D36;
+  -webkit-transition: all 0.5s ease;
+  -moz-transition: all 0.5s ease;
+  -o-transition: all 0.5s ease;
+  -ms-transition: all 0.5s ease;
+  transition: all 0.5s ease; }
+
 /* Footer ----------------------------------------------------------------- */
 .footerWrapper {
   width: auto;
@@ -429,9 +466,19 @@ nav a {
     .footerWrapper .footer p {
       margin-top: 20px; }
     .footerWrapper .footer a {
-      color: #f9d016; }
+      color: #f9d016;
+      -webkit-transition: all 0.3s ease;
+      -moz-transition: all 0.3s ease;
+      -o-transition: all 0.3s ease;
+      -ms-transition: all 0.3s ease;
+      transition: all 0.3s ease; }
     .footerWrapper .footer a:hover {
-      color: #fce479; }
+      color: #A71D36;
+      -webkit-transition: all 0.5s ease;
+      -moz-transition: all 0.5s ease;
+      -o-transition: all 0.5s ease;
+      -ms-transition: all 0.5s ease;
+      transition: all 0.5s ease; }
 
 bottomFooter {
   margin-top: 5px; }

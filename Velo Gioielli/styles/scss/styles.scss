@@ -170,7 +170,7 @@ p{
 	font-size: 1.6em;/*16px*/
 	line-height: 120%;
 	font-weight: lighter;
-	font-family: "Avenir LT Std", Helvetica;	
+	font-family: "Avenir LT Std", Helvetica arial sans-serif;	
 	}
 
 
@@ -185,7 +185,7 @@ ol {margin-bottom: 0px;
 li {margin-left: 0px;
 	text-decoration: none;
 }
-a {text-decoration: none; color: #888888;
+a {text-decoration: none; color: gold;
 	
 
 li {margin-left: 0px;}
@@ -202,24 +202,35 @@ color: #888888;
 }	
 
 
+li a:hover{
+	
+	color:green; 
+
+
+}
+
 nav{
 
 }	
 	a{
 		color: white;
+		  -webkit-transition: all 0.5s ease;
+     -moz-transition: all 0.3s ease;
+       -o-transition: all 0.3s ease;
+      -ms-transition: all 0.3s ease;
+          transition: all 0.3s ease;
 		
 	}
 }	
 	
 
 a:hover {
-color: #FF4F2C; 
-text-decoration: none;
-  -webkit-transition: all 0.3s ease;
-     -moz-transition: all 0.3s ease;
-       -o-transition: all 0.3s ease;
-      -ms-transition: all 0.3s ease;
-          transition: all 0.3s ease;	
+			 color: white;
+	  -webkit-transition: all 0.5s ease;
+     -moz-transition: all 0.5s ease;
+       -o-transition: all 0.5s ease;
+      -ms-transition: all 0.5s ease;
+          transition: all 0.5s ease;
 }
 
 .caps {text-transform: uppercase; letter-spacing: 0.1em; font-size: .8em;}
@@ -446,6 +457,7 @@ header{
 	box-shadow: 0px 0px 20px rgba(0, 0, 0, 1.00);
 	-moz-box-shadow: 0px 0px 20px rgba(0, 0, 0, 1.00);
 	-webkit-box-shadow:  0px 0px 20px rgba(0, 0, 0, 1.00);
+	overflow: hidden;
 }
 
 
@@ -487,7 +499,7 @@ margin: -.9em;
 	
 	background: $red;
 	text-align: center;
-	padding: 1.9em .95em ;
+	padding: 2em .95em ;
 	
 	
 }
@@ -584,6 +596,28 @@ margin: -.9em;
 		padding: 10px 10px 0 10px;		
 			
 	}
+	
+	
+		h2 a{
+		
+		
+		  -webkit-transition: all 0.5s ease;
+     -moz-transition: all 0.5s ease;
+       -o-transition: all 0.5s ease;
+      -ms-transition: all 0.5s ease;
+          transition: all 0.5s ease;
+	}
+	
+	
+	h2 a:hover{
+		
+		color: #A71D36;
+		  -webkit-transition: all 0.5s ease;
+     -moz-transition: all 0.5s ease;
+       -o-transition: all 0.5s ease;
+      -ms-transition: all 0.5s ease;
+          transition: all 0.5s ease;
+	}
 
 
 /* --CONNECTION-------------------------------------------------------------------------- */
@@ -637,13 +671,34 @@ margin: -.9em;
 
 .connectionHeader{
 		background: transparent url("../../images/banner3.png") no-repeat 0 0;
+}
 
-	
-	
-	
+
+
+
+.contact a{
+  -webkit-transition: all 0.5s ease;
+     -moz-transition: all 0.5s ease;
+       -o-transition: all 0.5s ease;
+      -ms-transition: all 0.5s ease;
+          transition: all 0.5s ease;	
 	
 }
 
+
+	
+p{
+	
+	a:hover{
+	color: #A71D36;
+  -webkit-transition: all 0.5s ease;
+     -moz-transition: all 0.5s ease;
+       -o-transition: all 0.5s ease;
+      -ms-transition: all 0.5s ease;
+          transition: all 0.5s ease;
+		
+	}
+}	
 /* Footer ----------------------------------------------------------------- */
 
 
@@ -667,10 +722,21 @@ margin: -.9em;
 		 
 		 a{
 			 color: $yellow;
+			 		
+  -webkit-transition: all 0.3s ease;
+     -moz-transition: all 0.3s ease;
+       -o-transition: all 0.3s ease;
+      -ms-transition: all 0.3s ease;
+          transition: all 0.3s ease;
 		 }
 		 
 		 a:hover{
-			 color: lighten($yellow, 20%);
+			 color: #A71D36;
+  -webkit-transition: all 0.5s ease;
+     -moz-transition: all 0.5s ease;
+       -o-transition: all 0.5s ease;
+      -ms-transition: all 0.5s ease;
+          transition: all 0.5s ease;
 		 }
 	}		
 }
