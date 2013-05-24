@@ -275,15 +275,6 @@ header {
   left: 50%;
   margin-left: -48em; }
 
-.attributes {
-  color: white;
-  position: absolute;
-  left: 50%;
-  margin-left: -480px;
-  top: 200px; }
-  .attributes .blockQuote {
-    text-align: left; }
-
 .sectionHeaderSub {
   margin: 0 2em 0 0;
   color: white; }
