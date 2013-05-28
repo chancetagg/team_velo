@@ -412,6 +412,10 @@ h2 a:hover {
   line-height: 200%;
   font-family: "Avenir LT Std", Helvetica;
   margin-bottom: 80px; }
+  .connectionSection .locations a {
+    color: black; }
+  .connectionSection .locations a:hover {
+    color: #f9d016; }
   .connectionSection .locations ul {
     font-size: 1.6em;
     /*16px*/

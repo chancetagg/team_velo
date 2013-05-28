@@ -651,6 +651,16 @@ margin: -.9em;
 	line-height: 200%;
 	font-family: "Avenir LT Std", Helvetica;	
 	
+	a {
+		color: black; 
+		
+	}
+	
+	a:hover{
+		
+		color: $yellow;
+		}
+	
 		ul{
 			font-size: 1.6em;/*16px*/
 			line-height: 200%;
