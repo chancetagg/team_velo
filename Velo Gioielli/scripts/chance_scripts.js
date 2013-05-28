@@ -32,7 +32,7 @@ function slideSwitch() {
 }
 
 $(function() {
-    setInterval( "slideSwitch()", 7000 );
+    setInterval( "slideSwitch()", 4000 );
 });
 
 
@@ -57,7 +57,7 @@ $(document).ready(function() {
 			// if yes, add "fixed" class to the <nav>
 			// add padding top to the #content (value is same as the height of the nav)
             $('.navBar').addClass('fixed').css('top','0');
-            $('#content').css('padding-top','90px');
+            $('#content').css('padding-top','75px');
         } else {
 			
 			// when scroll up or less than aboveHeight, remove the "fixed" class, and the padding-top

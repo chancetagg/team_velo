@@ -198,39 +198,8 @@ a:hover {
   width: auto;
   margin: 0 auto; }
 
-nav {
-  width: auto;
-  margin: 0 auto !important;
-  text-align: center;
-  z-index: 4000;
-  position: relative; }
-
-nav:after {
-  position: absolute;
-  width: 96em;
-  margin: 0 auto;
-  display: block;
-  position: absolute; }
-  nav:after .navWrapper {
-    left: 50%;
-    margin-left: -48em;
-    width: auto;
-    height: 9em;
-    background: none;
-    /* transparent url('../../images/nav_bg.png') repeat-x; */
-    z-index: 1000; }
-
 #content {
   margin: 0 auto; }
-
-.navWrapper {
-  display: block;
-  margin: 0 auto;
-  width: auto;
-  height: 9em;
-  background: none;
-  /* transparent url('../../images/nav_bg.png') repeat-x; */
-  z-index: 1000; }
 
 .float_right {
   float: right; }
@@ -266,9 +235,6 @@ header {
   width: 96em;
   height: 17.7em; }
 
-.navlogo {
-  float: left; }
-
 .splashHeader {
   display: block;
   position: absolute;
@@ -280,6 +246,40 @@ header {
   color: white; }
 
 /* Nav ----------------------------------------------------------------- */
+.navWrapper {
+  display: block;
+  margin: 0 auto;
+  width: auto;
+  height: 9em;
+  background: none;
+  /* transparent url('../../images/nav_bg.png') repeat-x; */
+  z-index: 1000; }
+
+nav {
+  width: auto;
+  margin: 0 auto !important;
+  text-align: center;
+  z-index: 4000;
+  position: relative; }
+
+nav:after {
+  position: absolute;
+  width: 96em;
+  margin: 0 auto;
+  display: block;
+  position: absolute; }
+  nav:after .navWrapper {
+    left: 50%;
+    margin-left: -48em;
+    width: auto;
+    height: 9em;
+    background: none;
+    /* transparent url('../../images/nav_bg.png') repeat-x; */
+    z-index: 1000; }
+
+.navlogo {
+  float: left; }
+
 .nav {
   display: block;
   font-family: "Avenir LT Std", Helvetica;
@@ -346,6 +346,17 @@ nav a {
   height: 18em;
   background: transparent url("../../images/banner.png") no-repeat 0 0; }
 
+.attributeHeading {
+  text-align: center;
+  padding: 1em 0;
+  margin-bottom: 1em;
+  border-bottom: #333333 solid 0.5px; }
+
+.attributeImage {
+  width: 9em;
+  height: 9em;
+  margin: auto; }
+
 /* --COLLECTION-------------------------------------------------------------------------- */
 .lifestylePic {
   display: block;
@@ -354,7 +365,8 @@ nav a {
 .collectionHeader {
   display: block;
   height: 18em;
-  background: transparent url("../../images/banner2.png") no-repeat 0 0; }
+  background: transparent url("../../images/banner2.png") no-repeat 0 0;
+  margin: 5em auto 0 auto; }
 
 .collectionSubhead {
   display: block;
