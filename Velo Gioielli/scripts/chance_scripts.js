@@ -47,6 +47,7 @@ $(document).ready(function() {
 	//Calculate the height of <header>
 	//Use outerHeight() instead of height() if have padding
     var aboveHeight = $('header').outerHeight();
+    
 
 	// when scroll
     $(window).scroll(function(){
@@ -57,11 +58,12 @@ $(document).ready(function() {
 			// if yes, add "fixed" class to the <nav>
 			// add padding top to the #content (value is same as the height of the nav)
             $('.navBar').addClass('fixed').css('top','0');
-            $('#content').css('padding-top','75px');
+            $('#content').css('padding-top','7.5em');
         } else {
 			
 			// when scroll up or less than aboveHeight, remove the "fixed" class, and the padding-top
             $('.navBar').removeClass('fixed');
+            //$('.navBar').addClass('bottom');
             $('#content').css('padding-top','0');
 
         }
