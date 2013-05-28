@@ -131,7 +131,7 @@ h1 {
 	line-height: 1.2em;
 	letter-spacing: 1.6;
 	font-weight: normal;
-	font-family: "Avenir LT Std", Helvetica, arial, sans-serif;
+	font-family: "Avenir LT Std", Helvetica;
 	font-weight: 800;
 	margin: 55px auto 32px auto;
 	text-align: center;
@@ -143,7 +143,7 @@ h2 {font-size: 3.5em;/*20px*/
 	font-weight: normal;
 	
 
-	font-family: "Avenir LT Std", Helvetica, arial, sans-serif;
+	font-family: "Avenir LT Std", Helvetica;
 	margin: 0 0 17px 0;
 
 }
@@ -153,7 +153,7 @@ h2 {font-size: 3.5em;/*20px*/
 h3 {font-size: 2em;/*16px*/
 	font-weight: normal;
 	letter-spacing: 1.5;	
-	font-family: "Avenir LT Std", Helvetica, arial, sans-serif;
+	font-family: "Avenir LT Std", Helvetica;
 	font-weight: 800;}
 
 
@@ -170,7 +170,7 @@ p{
 	font-size: 1.6em;/*16px*/
 	line-height: 120%;
 	font-weight: lighter;
-	font-family: "Avenir LT Std", Helvetica, arial, sans-serif;	
+	font-family: "Avenir LT Std", Helvetica arial sans-serif;	
 	}
 
 
@@ -240,7 +240,7 @@ a:hover {
 	font-size: 3.3em;/*33px*/
 	line-height: 120%;;
 	font-weight: normal;
-	font-family: "Avenir LT Std", Helvetica,  arial, sans-serif;;
+	font-family: "Avenir LT Std", Helvetica;
 	margin: 50px 40px;
 
 }
@@ -435,7 +435,7 @@ nav:after {
 
 .nav{
 	display: block;
-	font-family: "Avenir LT Std", Helvetica,  arial, sans-serif;;
+	font-family: "Avenir LT Std", Helvetica;
 	font-size: 1.6em;
 	z-index: 1000;
 	color: $white;	
@@ -662,23 +662,13 @@ margin: -.9em;
 	.locations{
 	font-weight: normal;
 	line-height: 200%;
-	font-family: "Avenir LT Std", Helvetica,  arial, sans-serif;;	
-	
-	a {
-		color: black; 
-		
-	}
-	
-	a:hover{
-		
-		color: $yellow;
-		}
+	font-family: "Avenir LT Std", Helvetica;	
 	
 		ul{
 			font-size: 1.6em;/*16px*/
 			line-height: 200%;
 			font-weight: lighter;
-			font-family: "Avenir LT Std", Helvetica,  arial, sans-serif;;	
+			font-family: "Avenir LT Std", Helvetica;	
 			}	
 		.contact{
 			margin:90px 0 0 0;
@@ -746,7 +736,6 @@ p{
 		width: auto;
 		height: 19em;
 		background: #333333;
-		margin-top:5em;
 	box-shadow: 0px 0px 20px rgba(0, 0, 0, 1.00);
 	-moz-box-shadow: 0px 0px 20px rgba(0, 0, 0, 1.00);
 	-webkit-box-shadow:  0px 0px 20px rgba(0, 0, 0, 1.00);
@@ -808,7 +797,6 @@ bottomFooter{
 	display: block;
 	width: 100%;
 	}
-		
 
 
 .splashHeader{
