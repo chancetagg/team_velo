@@ -95,7 +95,7 @@ h1 {
   line-height: 1.2em;
   letter-spacing: 1.6;
   font-weight: normal;
-  font-family: "Avenir LT Std", Helvetica;
+  font-family: "Avenir LT Std", Helvetica, arial, sans-serif;
   font-weight: 800;
   margin: 55px auto 32px auto;
   text-align: center; }
@@ -105,7 +105,7 @@ h2 {
   /*20px*/
   line-height: 1.33em;
   font-weight: normal;
-  font-family: "Avenir LT Std", Helvetica;
+  font-family: "Avenir LT Std", Helvetica, arial, sans-serif;
   margin: 0 0 17px 0; }
 
 h3 {
@@ -113,7 +113,7 @@ h3 {
   /*16px*/
   font-weight: normal;
   letter-spacing: 1.5;
-  font-family: "Avenir LT Std", Helvetica;
+  font-family: "Avenir LT Std", Helvetica, arial, sans-serif;
   font-weight: 800; }
 
 h4 {
@@ -137,7 +137,7 @@ p {
   /*16px*/
   line-height: 120%;
   font-weight: lighter;
-  font-family: "Avenir LT Std", Helvetica arial sans-serif; }
+  font-family: "Avenir LT Std", Helvetica, arial, sans-serif; }
 
 ul,
 ol {
@@ -189,7 +189,7 @@ a:hover {
   /*33px*/
   line-height: 120%;
   font-weight: normal;
-  font-family: "Avenir LT Std", Helvetica;
+  font-family: "Avenir LT Std", Helvetica, arial, sans-serif;
   margin: 50px 40px; }
 
 /* Variables ----------------------------------------------------------------- */
@@ -283,7 +283,7 @@ nav:after {
 
 .nav {
   display: block;
-  font-family: "Avenir LT Std", Helvetica;
+  font-family: "Avenir LT Std", Helvetica, arial, sans-serif;
   font-size: 1.6em;
   z-index: 1000;
   color: white;
@@ -411,14 +411,18 @@ h2 a:hover {
 .connectionSection .locations {
   font-weight: normal;
   line-height: 200%;
-  font-family: "Avenir LT Std", Helvetica;
+  font-family: "Avenir LT Std", Helvetica, arial, sans-serif;
   margin-bottom: 80px; }
+  .connectionSection .locations a {
+    color: black; }
+  .connectionSection .locations a:hover {
+    color: #f9d016; }
   .connectionSection .locations ul {
     font-size: 1.6em;
     /*16px*/
     line-height: 200%;
     font-weight: lighter;
-    font-family: "Avenir LT Std", Helvetica; }
+    font-family: "Avenir LT Std", Helvetica, arial, sans-serif; }
   .connectionSection .locations .contact {
     margin: 90px 0 0 0; }
     .connectionSection .locations .contact h3 {
@@ -461,6 +465,7 @@ p a:hover {
   width: auto;
   height: 19em;
   background: #333333;
+  margin-top: 5em;
   box-shadow: 0px 0px 20px black;
   -moz-box-shadow: 0px 0px 20px black;
   -webkit-box-shadow: 0px 0px 20px black; }
