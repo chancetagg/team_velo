@@ -670,6 +670,18 @@ margin: -.9em;
 			font-weight: lighter;
 			font-family: "Avenir LT Std", Helvetica;	
 			}	
+			
+			a{
+				color: $grey; 
+				
+			}
+			
+			a:hover{
+				color: $yellow; 
+				
+			}
+			
+			
 		.contact{
 			margin:90px 0 0 0;
 				h3{
