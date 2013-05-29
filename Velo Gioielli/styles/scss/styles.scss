@@ -317,6 +317,28 @@ header{
 
 
 
+.pattern{
+	width: 1200px;
+	height: 800px;
+	top: 0;
+	left: 50%;
+	margin-left: -600px;
+	display: block;
+	position: absolute;
+	background: transparent url('../../images/overlay_pattern.png') repeat;
+	opacity: .25;
+	z-index: 100;	
+	
+	
+	
+	
+	
+}
+
+
+
+
+
 .splash{
 	width: 100%;
 }
@@ -800,7 +822,7 @@ bottomFooter{
 
 
 .splashHeader{
-	background-color: rgba(140, 25, 35, .85);
+	background-color: rgba(150, 20, 40, .85);
 	width: 100%;
 	
 	
