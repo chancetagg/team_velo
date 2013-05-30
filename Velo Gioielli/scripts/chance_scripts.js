@@ -2,47 +2,18 @@
 
 
 
-function slideSwitch() {
-    var $active = $('#slideshow .slide.active');
-
-    if ( $active.length == 0 ) $active = $('#slideshow .slide:last');
-
-    // use this to pull the divs in the order they appear in the markup
-    var $next =  $active.next().length ? $active.next()
-        : $('#slideshow .slide:first');
-        
-        
-        
-    
-        
-
-     // uncomment below to pull the divs randomly
-    // var $sibs  = $active.siblings();
-    // var rndNum = Math.floor(Math.random() * $sibs.length );
-    // var $next  = $( $sibs[ rndNum ] );
-
-
-    $active.addClass('last-active');
-
-    $next.css({opacity: 0.0})
-        .addClass('active')
-        .animate({opacity: 1.0}, 1000, function() {
-            $active.removeClass('active last-active');
-        });
-}
-
-$(function() {
-    setInterval( "slideSwitch()", 4000 );
-});
-
-
-
 
 
 
 
 
 $(document).ready(function() {
+
+
+
+
+
+
 
 	//Calculate the height of <header>
 	//Use outerHeight() instead of height() if have padding
@@ -63,7 +34,6 @@ $(document).ready(function() {
 			
 			// when scroll up or less than aboveHeight, remove the "fixed" class, and the padding-top
             $('.navBar').removeClass('fixed');
-            //$('.navBar').addClass('bottom');
             $('#content').css('padding-top','0');
 
         }
@@ -78,3 +48,70 @@ $(document).ready(function() {
     
     
 });
+
+
+
+
+function slideSwitch() {
+    var $active = $('#slideshow .slide.active');
+
+    if ( $active.length == 0 ) $active = $('#slideshow .slide:last');
+
+    // use this to pull the divs in the order they appear in the markup
+    var $next =  $active.next().length ? $active.next()
+        : $('#slideshow .slide:first');
+
+     // uncomment below to pull the divs randomly
+    // var $sibs  = $active.siblings();
+    // var rndNum = Math.floor(Math.random() * $sibs.length );
+    // var $next  = $( $sibs[ rndNum ] );
+
+
+    $active.addClass('last-active');
+
+    $next.css({opacity: 0.0})
+        .addClass('active')
+        .animate({opacity: 1.0}, 1000, function() {
+            $active.removeClass('active last-active');
+        });
+}
+
+$(function() {
+    setInterval( "slideSwitch()", 4000 );
+
+});
+
+
+
+$(document).ready(function() {
+		// jQuery code goes here
+	
+		//$('#content').hide();
+		
+		$(window).stellar();
+
+		
+
+
+  // LINK TO SECTION OF PAGE
+    $('.pattern').click(function() {
+
+        //alert('js working'); 
+        // TARGET --> SPEED
+		$('#content').show();
+        
+        $(window).scrollTo(".navWrapper", 800);
+    });
+    
+    // LINK TO SECTION OF PAGE
+
+
+
+
+
+
+});  
+
+
+
+
