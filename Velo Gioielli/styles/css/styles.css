@@ -266,30 +266,47 @@ header {
   color: white; }
 
 /*---------SLIDESHOW--------------------------------*/
-.slide {
-  display: block;
-  width: 100%; }
+/*
 
-.splashHeader {
-  background-color: rgba(150, 20, 40, 0.85);
-  width: 100%; }
+.slide{
+	display: block;
+	width: 100%;
+	}
+
+
+.splashHeader{
+	background-color: rgba(150, 20, 40, .85);
+	width: 100%;
+	
+	
+}
+
+
+
+
+
 
 #slideshow {
-  position: relative;
-  height: 350px; }
+    position:relative;
+    height:350px;
+    }
 
 #slideshow .slide {
-  position: absolute;
-  top: 0;
-  left: 0;
-  z-index: 300; }
+    position:absolute;
+    top:0;
+    left:0;
+    z-index:300;
+    }
 
 #slideshow .slide.active {
-  z-index: 500; }
+    z-index:500;
+    }
 
 #slideshow .slide.last-active {
-  z-index: 400; }
-
+    z-index:400;
+    }
+    
+    */
 /*----------Slideshow Text-----------------------------------------------------*/
 #slideshow {
   position: relative; }
@@ -320,6 +337,41 @@ header {
 #slideshow .attributes.last-active {
   z-index: 405; }
 
+/*----------------------------------------------------------------------- NEW SLIDESHOW ----------------------------------------------------------------- */
+/*----------------------------------------------------------------------- NEW SLIDESHOW ----------------------------------------------------------------- */
+/*----------------------------------------------------------------------- NEW SLIDESHOW ----------------------------------------------------------------- */
+/*----------------------------------------------------------------------- NEW SLIDESHOW ----------------------------------------------------------------- */
+.rslides {
+  position: relative;
+  list-style: none;
+  overflow: hidden;
+  width: 100%;
+  padding: 0;
+  margin: 0; }
+
+.rslides li {
+  -webkit-backface-visibility: hidden;
+  position: absolute;
+  display: none;
+  width: 100%;
+  left: 0;
+  top: 0; }
+
+.rslides li:first-child {
+  position: relative;
+  display: block;
+  float: left; }
+
+.rslides img {
+  display: block;
+  height: auto;
+  float: left;
+  width: 100%;
+  border: 0; }
+
+/*----------------------------------------------------------------------- END SLIDESHOW ----------------------------------------------------------------- */
+/*----------------------------------------------------------------------- END SLIDESHOW ----------------------------------------------------------------- */
+/*----------------------------------------------------------------------- END SLIDESHOW ----------------------------------------------------------------- */
 /* Nav ----------------------------------------------------------------- */
 .navWrapper {
   display: block;
@@ -347,7 +399,11 @@ nav:after {
     z-index: 1000; }
 
 .navlogo {
-  float: left; }
+  display: block;
+  width: 12em;
+  height: 7.5em;
+  float: left;
+  background: transparent url("../../images/velo_gioielli_branding.png") no-repeat 0 0; }
 
 .nav {
   display: block;
