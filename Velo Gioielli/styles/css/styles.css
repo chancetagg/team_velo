@@ -95,7 +95,7 @@ h1 {
   line-height: 1.2em;
   letter-spacing: 1.6;
   font-weight: normal;
-  font-family: "Avenir LT Std", Helvetica;
+  font-family: "Avenir LT Std", Helvetica, Arial, sans-serif, Arial, sans-serif;
   font-weight: 800;
   margin: 55px auto 32px auto;
   text-align: center; }
@@ -105,7 +105,7 @@ h2 {
   /*20px*/
   line-height: 1.33em;
   font-weight: normal;
-  font-family: "Avenir LT Std", Helvetica;
+  font-family: "Avenir LT Std", Helvetica, Arial, sans-serif;
   margin: 0 0 17px 0; }
 
 h3 {
@@ -113,7 +113,7 @@ h3 {
   /*16px*/
   font-weight: normal;
   letter-spacing: 1.5;
-  font-family: "Avenir LT Std", Helvetica;
+  font-family: "Avenir LT Std", Helvetica, Arial, sans-serif;
   font-weight: 800; }
 
 h4 {
@@ -122,7 +122,7 @@ h4 {
   font-weight: normal; }
 
 h5 {
-  font-family: Helvetica, Arial, sans-serif;
+  font-family: Helvetica, Arial, sans-serif, Arial, sans-serif;
   font-size: 15px;
   /*48px*/
   color: #888888;
@@ -137,7 +137,7 @@ p {
   /*16px*/
   line-height: 120%;
   font-weight: lighter;
-  font-family: "Avenir LT Std", Helvetica arial sans-serif; }
+  font-family: "Avenir LT Std", Helvetica, Arial, sans-serif arial sans-serif; }
 
 ul,
 ol {
@@ -189,7 +189,7 @@ a:hover {
   /*33px*/
   line-height: 120%;
   font-weight: normal;
-  font-family: "Avenir LT Std", Helvetica;
+  font-family: "Avenir LT Std", Helvetica, Arial, sans-serif;
   margin: 50px 40px; }
 
 /* Variables ----------------------------------------------------------------- */
@@ -234,14 +234,14 @@ header {
   z-index: 600; }
 
 .splash {
-  width: 100%;
+  width: auto;
   height: 90%;
   overflow: hidden; }
 
 .splashSlideshow {
   display: block;
   position: absolute;
-  width: 1200px;
+  /*width: 1200px;*/
   height: 90%;
   overflow: hidden;
   left: 50%;
@@ -268,11 +268,12 @@ header {
 /*---------SLIDESHOW--------------------------------*/
 .slide {
   display: block;
-  width: 100%; }
+  /*width: 100%;*/ }
 
 .splashHeader {
   background-color: rgba(150, 20, 40, 0.85);
-  width: 100%; }
+  /*width: 100%;
+  */ }
 
 #slideshow {
   position: relative;
@@ -351,7 +352,7 @@ nav:after {
 
 .nav {
   display: block;
-  font-family: "Avenir LT Std", Helvetica;
+  font-family: "Avenir LT Std", Helvetica, Arial, sans-serif;
   font-size: 1.6em;
   z-index: 1000;
   color: white;
@@ -479,14 +480,14 @@ h2 a:hover {
 .connectionSection .locations {
   font-weight: normal;
   line-height: 200%;
-  font-family: "Avenir LT Std", Helvetica;
+  font-family: "Avenir LT Std", Helvetica, Arial, sans-serif;
   margin-bottom: 80px; }
   .connectionSection .locations ul {
     font-size: 1.6em;
     /*16px*/
     line-height: 200%;
     font-weight: lighter;
-    font-family: "Avenir LT Std", Helvetica; }
+    font-family: "Avenir LT Std", Helvetica, Arial, sans-serif; }
   .connectionSection .locations a {
     color: #333333; }
   .connectionSection .locations a:hover {
