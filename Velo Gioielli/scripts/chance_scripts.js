@@ -1,7 +1,7 @@
 $(document).ready(function() {
 		// jQuery code goes here
 		
-		
+/*		
 /////////////////////////////////////START STICKY AV/////////////////////////////////////////////////
 
 		//Calculate the height of <header>
@@ -56,6 +56,6 @@ $(document).ready(function() {
 
 
 
-
+*/
 
 });  
