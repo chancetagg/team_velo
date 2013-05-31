@@ -10,7 +10,16 @@ $(document).ready(function() {
 		//$('#content').hide();
 		
 		
-		
+		  // LINK TO SECTION OF PAGE
+    $('.navlogo').click(function() {
+        // TARGET --> SPEED
+        //$('#content').show();
+        $(window).scrollTo(".splashSlideshow", 800,{offset:{top:-90}})
+        
+
+        
+    });
+        
   // LINK TO SECTION OF PAGE
     $('.linkzero').click(function() {
 
