@@ -131,7 +131,7 @@ h1 {
 	line-height: 1.2em;
 	letter-spacing: 1.6;
 	font-weight: normal;
-	font-family: "Avenir LT Std", Helvetica;
+	font-family: "Avenir LT Std", Helvetica, Arial, sans-serif, Arial, sans-serif;
 	font-weight: 800;
 	margin: 55px auto 32px auto;
 	text-align: center;
@@ -143,7 +143,7 @@ h2 {font-size: 3.5em;/*20px*/
 	font-weight: normal;
 	
 
-	font-family: "Avenir LT Std", Helvetica;
+	font-family: "Avenir LT Std", Helvetica, Arial, sans-serif;
 	margin: 0 0 17px 0;
 
 }
@@ -153,7 +153,7 @@ h2 {font-size: 3.5em;/*20px*/
 h3 {font-size: 2em;/*16px*/
 	font-weight: normal;
 	letter-spacing: 1.5;	
-	font-family: "Avenir LT Std", Helvetica;
+	font-family: "Avenir LT Std", Helvetica, Arial, sans-serif;
 	font-weight: 800;}
 
 
@@ -162,7 +162,7 @@ h4 {font-size: 1.3125em;/*21px*/ font-weight: normal;  }
 
 
 
-h5 {font-family: Helvetica, Arial, sans-serif; font-size: 15px;/*48px*/ color:#888888; font-weight: bold; text-transform: uppercase; letter-spacing: 1px; line-height: 22px;  margin-bottom: 11px;}
+h5 {font-family: Helvetica, Arial, sans-serif, Arial, sans-serif; font-size: 15px;/*48px*/ color:#888888; font-weight: bold; text-transform: uppercase; letter-spacing: 1px; line-height: 22px;  margin-bottom: 11px;}
 
 
 
@@ -170,7 +170,7 @@ p{
 	font-size: 1.6em;/*16px*/
 	line-height: 120%;
 	font-weight: lighter;
-	font-family: "Avenir LT Std", Helvetica arial sans-serif;	
+	font-family: "Avenir LT Std", Helvetica, Arial, sans-serif arial sans-serif;	
 	}
 
 
@@ -240,7 +240,7 @@ a:hover {
 	font-size: 3.3em;/*33px*/
 	line-height: 120%;;
 	font-weight: normal;
-	font-family: "Avenir LT Std", Helvetica;
+	font-family: "Avenir LT Std", Helvetica, Arial, sans-serif;
 	margin: 50px 40px;
 
 }
@@ -341,7 +341,7 @@ header{
 
 
 .splash{
-	width: 100%;
+	width: auto;
 	height: $rightHi;
 	overflow: hidden;
 }
@@ -353,7 +353,7 @@ header{
 
 	display: block;
 	position: absolute;
-	width: 1200px;
+	/*width: 1200px;*/
 	height: $rightHi;
 	overflow: hidden;
 	left: 50%;
@@ -405,14 +405,14 @@ header{
 
 .slide{
 	display: block;
-	width: 100%;
+	/*width: 100%;*/
 	}
 
 
 .splashHeader{
 	background-color: rgba(150, 20, 40, .85);
-	width: 100%;
-	
+	/*width: 100%;
+	*/
 	
 }
 
@@ -535,7 +535,7 @@ header{
 	display: block;
 	margin: 0 auto;
 	width: auto;
-	height: 7.45em;
+	height: 7.5em;
 	z-index: 1000;	
 }
 
@@ -561,7 +561,7 @@ nav:after {
 		
 			left: 50%;
 			margin-left: -48em;	
-			height: 7.45em;
+			height: 7.5em;
 			z-index: 1000;				
 			}
 	}	
@@ -582,7 +582,7 @@ nav:after {
 
 .nav{
 	display: block;
-	font-family: "Avenir LT Std", Helvetica;
+	font-family: "Avenir LT Std", Helvetica, Arial, sans-serif;
 	font-size: 1.6em;
 	z-index: 1000;
 	color: $white;	
@@ -611,7 +611,7 @@ nav:after {
 	display: block;
 	margin: 0 auto;
 	width: auto;
-	height: 7.45em;
+	height: 7.5em;
 	background: #333;
 	box-shadow: 0px 0px 20px rgba(0, 0, 0, 1.00);
 	-moz-box-shadow: 0px 0px 20px rgba(0, 0, 0, 1.00);
@@ -809,14 +809,26 @@ margin: -.9em;
 	.locations{
 	font-weight: normal;
 	line-height: 200%;
-	font-family: "Avenir LT Std", Helvetica;	
+	font-family: "Avenir LT Std", Helvetica, Arial, sans-serif;	
 	
 		ul{
 			font-size: 1.6em;/*16px*/
 			line-height: 200%;
 			font-weight: lighter;
-			font-family: "Avenir LT Std", Helvetica;	
+			font-family: "Avenir LT Std", Helvetica, Arial, sans-serif;	
 			}	
+			
+			a{
+				color: $grey; 
+				
+			}
+			
+			a:hover{
+				color: $yellow; 
+				
+			}
+			
+			
 		.contact{
 			margin:90px 0 0 0;
 				h3{

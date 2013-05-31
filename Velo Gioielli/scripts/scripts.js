@@ -17,8 +17,9 @@ $(document).ready(function() {
        /*  alert('js working'); */
         // TARGET --> SPEED
         //$('#content').show();
-        $(window).scrollTo(".aboutHeader", 800)
-
+       
+        $(window).scrollTo(".aboutHeader", 800 ,{offset:{top:-90}} )
+       
        
 
 
@@ -30,7 +31,7 @@ $(document).ready(function() {
     $('.linkone').click(function() {
         // TARGET --> SPEED
         //$('#content').show();
-        $(window).scrollTo(".collectionHeader", 800)
+        $(window).scrollTo(".collectionHeader", 800,{offset:{top:-90}})
         
 
         
@@ -40,7 +41,7 @@ $(document).ready(function() {
     $('.linktwo').click(function() {
         // TARGET --> SPEED
         //$('#content').show();
-        $(window).scrollTo(".connectionHeader", 800);
+        $(window).scrollTo(".connectionHeader", 800, {offset:{top:-90}});
         
     });
         
