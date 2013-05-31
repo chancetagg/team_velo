@@ -1,21 +1,10 @@
-/****************** Slideshow**************************/
-
-
-
-
-
-
-
-
 $(document).ready(function() {
+		// jQuery code goes here
+		
+/*		
+/////////////////////////////////////START STICKY AV/////////////////////////////////////////////////
 
-
-
-
-
-
-
-	//Calculate the height of <header>
+		//Calculate the height of <header>
 	//Use outerHeight() instead of height() if have padding
     var aboveHeight = $('header').outerHeight();
     
@@ -38,60 +27,17 @@ $(document).ready(function() {
 
         }
     });
-    
-    
-    
-    
-    
-    
-    
-    
-    
-});
-
-
-
-
-function slideSwitch() {
-    var $active = $('#slideshow .slide.active');
-
-    if ( $active.length == 0 ) $active = $('#slideshow .slide:last');
-
-    // use this to pull the divs in the order they appear in the markup
-    var $next =  $active.next().length ? $active.next()
-        : $('#slideshow .slide:first');
-
-     // uncomment below to pull the divs randomly
-    // var $sibs  = $active.siblings();
-    // var rndNum = Math.floor(Math.random() * $sibs.length );
-    // var $next  = $( $sibs[ rndNum ] );
-
-
-    $active.addClass('last-active');
-
-    $next.css({opacity: 0.0})
-        .addClass('active')
-        .animate({opacity: 1.0}, 1000, function() {
-            $active.removeClass('active last-active');
-        });
-}
-
-$(function() {
-    setInterval( "slideSwitch()", 4000 );
-
-});
-
-
-
-$(document).ready(function() {
-		// jQuery code goes here
 	
+/////////////////////////////////////START SLIDESHOW/////////////////////////////////////////////////
+
+		$(function() {
+			$(".rslides").responsiveSlides();
+    	});
+
+/////////////////////////////////////START STELLAR/////////////////////////////////////////////////
 		//$('#content').hide();
 		
 		$(window).stellar();
-
-		
-
 
   // LINK TO SECTION OF PAGE
     $('.pattern').click(function() {
@@ -110,8 +56,6 @@ $(document).ready(function() {
 
 
 
+*/
+
 });  
-
-
-
-
