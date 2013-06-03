@@ -423,9 +423,9 @@ nav:after {
   width: auto;
   height: 7.45em;
   background: #333;
-  box-shadow: 0px 0px 20px black;
-  -moz-box-shadow: 0px 0px 20px black;
-  -webkit-box-shadow: 0px 0px 20px black;
+  box-shadow: 0px 0px 5px black;
+  -moz-box-shadow: 0px 0px 5px black;
+  -webkit-box-shadow: 0px 0px 5px black;
   overflow: hidden; }
 
 .navButton {
@@ -478,6 +478,9 @@ nav a {
   width: 9em;
   height: 9em;
   margin: auto; }
+
+.attributes {
+  font-size: .9em; }
 
 /* --COLLECTION-------------------------------------------------------------------------- */
 .lifestylePic {
@@ -587,9 +590,9 @@ p a:hover {
   width: auto;
   height: 19em;
   background: #333333;
-  box-shadow: 0px 0px 20px black;
-  -moz-box-shadow: 0px 0px 20px black;
-  -webkit-box-shadow: 0px 0px 20px black; }
+  box-shadow: 0px 0px 5px black;
+  -moz-box-shadow: 0px 0px 5px black;
+  -webkit-box-shadow: 0px 0px 5px black; }
   .footerWrapper .footer {
     padding: 46px 0 0 0;
     color: white; }

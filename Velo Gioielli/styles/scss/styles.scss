@@ -476,9 +476,9 @@ nav:after {
 	width: auto;
 	height: 7.45em;
 	background: #333;
-	box-shadow: 0px 0px 20px rgba(0, 0, 0, 1.00);
-	-moz-box-shadow: 0px 0px 20px rgba(0, 0, 0, 1.00);
-	-webkit-box-shadow:  0px 0px 20px rgba(0, 0, 0, 1.00);
+	box-shadow: 0px 0px 5px rgba(0, 0, 0, 1.00);
+	-moz-box-shadow: 0px 0px 5px rgba(0, 0, 0, 1.00);
+	-webkit-box-shadow:  0px 0px 5px rgba(0, 0, 0, 1.00);
 	overflow: hidden;
 }
 
@@ -551,6 +551,8 @@ margin: -.9em;
 }
 
 .aboutSection{	
+
+
 }
 
 .attributeHeading{
@@ -569,7 +571,11 @@ margin: -.9em;
 	
 	
 	
+}
+
+.attributes{
 	
+	font-size: .9em; 
 }
 
 
@@ -756,9 +762,9 @@ p{
 		width: auto;
 		height: 19em;
 		background: #333333;
-	box-shadow: 0px 0px 20px rgba(0, 0, 0, 1.00);
-	-moz-box-shadow: 0px 0px 20px rgba(0, 0, 0, 1.00);
-	-webkit-box-shadow:  0px 0px 20px rgba(0, 0, 0, 1.00);
+	box-shadow: 0px 0px 5px rgba(0, 0, 0, 1.00);
+	-moz-box-shadow: 0px 0px 5px rgba(0, 0, 0, 1.00);
+	-webkit-box-shadow:  0px 0px 5px rgba(0, 0, 0, 1.00);
 		
 		
 
