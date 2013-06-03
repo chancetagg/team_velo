@@ -815,3 +815,52 @@ bottomFooter{
 	
 	
 
+/* Media Queries----------------------------------------------------------------------------------------------------------------- */
+@media screen and (min-width: 905px) and (max-width: 1085px)  {
+}
+
+@media screen and (min-width: 700px) and (max-width: 905px)  {
+}
+
+@media screen and (min-width: 440px) and (max-width: 700px)  {
+}
+
+@media screen and (min-width: 100px) and (max-width: 440px)  {
+	
+	
+}
+
+@media screen and (min-width: 50px) and (max-width: 100px)  {
+	
+	
+}
+
+
+/** iPhone (landscape) **/
+@media screen and (max-width: 480px) {}
+
+/** iPhone (portrait) **/
+@media screen and (max-width: 320px) {}
+
+/** iPhone 4 **/
+@media only screen and (-webkit-min-device-pixel-ratio : 1.5),
+  only screen and (min-device-pixel-ratio : 1.5) {
+}
+
+/** iphone5 and ipod touch 5th gen **/
+@media (device-height: 568px) and (-webkit-min-device-pixel-ratio: 2) {}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
