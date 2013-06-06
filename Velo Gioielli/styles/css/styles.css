@@ -731,5 +731,95 @@ bottomFooter {
     margin: 0 0 0 -1px; } }
 /** iPhone (landscape) **/
 /** iPhone (portrait) **/
+@media screen and (max-width: 320px) {
+  .aboutSection {
+    width: 440px;
+    margin-left: -10px;
+    font-size: .7em; }
+
+  .aboutHeader {
+    width: 440px;
+    margin: 0 0 0 -5px; }
+
+  .attributeHeading {
+    display: none; }
+
+  .navBar {
+    width: 440px;
+    margin: 0 0 0 -5px; }
+
+  .navButton {
+    margin: 0 0 0 -50px; }
+
+  .container_12 {
+    width: 580px;
+    margin: 0 0 0 50px; }
+
+  .attributeImage {
+    width: 6em;
+    height: 6em;
+    margin: inherit;
+    display: inline-block; }
+
+  .attributes p {
+    display: none; }
+
+  .collectionSubhead {
+    display: none; }
+
+  .lifestylePic {
+    display: none; }
+
+  .collectionDescription {
+    font-size: .7em; }
+
+  .footerWrapper {
+    width: 440px; }
+
+  .grid_2 {
+    display: none; }
+
+  .purchaseSubhead {
+    display: none; }
+
+  .wholesaleInfo {
+    margin: 0 -280px; }
+
+  .shipping {
+    display: none; }
+
+  .payment {
+    display: none; }
+
+  .returns {
+    display: none; }
+
+  .copyright {
+    float: left;
+    clear: both;
+    margin: 0 -50px 10px; }
+
+  .wholesaleSubhead {
+    margin: -10px 0 0 30px; }
+
+  .map {
+    display: none; }
+
+  .googleMap {
+    display: none; }
+
+  .retailLocations {
+    margin: 0 0 0 70px; }
+
+  .locations {
+    margin: 0 0 0 70px; }
+
+  .connectionHeader {
+    width: 440px;
+    margin: 0 0 0 -1px; }
+
+  .collectionHeader {
+    width: 440px;
+    margin: 0 0 0 -1px; } }
 /** iPhone 4 **/
 /** iphone5 and ipod touch 5th gen **/
