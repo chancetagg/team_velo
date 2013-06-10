@@ -590,7 +590,17 @@ margin: -.9em;
 /* --COLLECTION-------------------------------------------------------------------------- */
 
 
-
+.bikeTeam{
+	
+background: url("../../images/bikeTeam.jpg") no-repeat center center / cover transparent;
+    border-radius: 0px;
+    height: 489px;
+    margin: auto;
+    width: 940px;
+    z-index: 50;	
+	
+	
+}
 
 .collectionSection{
 
@@ -846,6 +856,15 @@ margin: 0 auto;
 .container_12 .grid_3{
 width:150px;
 }
+
+.bikeTeam{
+width:650px;
+height:400px;	
+	
+}
+
+
+
 
 }
 
