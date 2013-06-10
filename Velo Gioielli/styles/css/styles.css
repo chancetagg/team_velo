@@ -91,7 +91,7 @@ body {
 
 h1 {
   font-size: 5.25em;
-  /*46px*/
+  /*52.5px*/
   line-height: 1.2em;
   letter-spacing: 1.6;
   font-weight: normal;
@@ -400,6 +400,7 @@ nav:after {
   width: 12em;
   height: 7.5em;
   float: left;
+  margin-left: -20px;
   background: transparent url("../../images/velo_gioielli_branding.png") no-repeat 0 0; }
 
 .nav {
@@ -823,3 +824,10 @@ bottomFooter {
     margin: 0 0 0 -1px; } }
 /** iPhone 4 **/
 /** iphone5 and ipod touch 5th gen **/
+/* Collection Section H1 tags */
+.collectionSubhead {
+  padding: 48px 0 0 0; }
+  .collectionSubhead h1 {
+    font-size: 40px;
+    text-align: left;
+    margin: 6px 0 0 0; }
