@@ -860,27 +860,14 @@ width:150px;
 
 @media screen and (min-width: 100px) and (max-width: 440px)  {
 	
-	
-
-	.aboutSection{	
-	width: 440px;
-	margin-left: -10px;
-	font-size: .7em; 
-
-}	
-.aboutHeader{
-	width: 440px;
-	margin: 0 0 0 -5px;
-	 } 
-	
-
-.attributeHeading{
-	display:none; 
-	}
-	
-	
-	.navBar{width: 440px;
-		margin: 0 0 0 -5px;
+	.container_12{
+width:440px;
+ 
+}
+	.navBar{
+		width: 440px; 
+		margin: 0 0 0 -35px;
+		font-size: .8em; 
 	}
 
 
@@ -889,19 +876,37 @@ width:150px;
 		margin: 0 0 0 -50px;
 		
 	}
+	
+	.nav{margin: 0 0 0 -35px;
+	 }
+	 
+	 
+	.aboutSection{	
+	margin-left: -10px;
+	font-size: .7em; 
 
+}	
+.aboutHeader{
+	
+	margin: 0 0 0 -5px;
+	 } 
+	
 
-.container_12{
-width:580px;
-margin: 0 0 0 50px; 
-}
+.attributeHeading{
+	display:none; 
+	}
+	
+	.blockQuote{
+			margin: 20px 0 0 -205px;
+			width: 350px; 
+	}
+
 
 .attributeImage{
-	
+	margin: 0 0 0 -70px;
 	width:6em;
 	height:6em;
-	margin: inherit;
-	display: inline-block;
+	display: block; 
 	
 	
 }
@@ -910,6 +915,7 @@ margin: 0 0 0 50px;
 
 .attributes p{
 	display: none; 
+	margin: 0 0 0 -170px;
 	
 }
 
@@ -920,9 +926,15 @@ margin: 0 0 0 50px;
 
 .collectionDescription{
 		font-size: .7em;
-		
+	margin: 20px 0 0 -205px;
+		width: 250px; 
 		}
 		
+.collectionImage{
+		margin: 0 0 0 -105px;
+		display: block; 
+
+}
 
 .footerWrapper{
 	
@@ -956,16 +968,16 @@ margin: 0 0 0 50px;
 	.map
 	{display: none;}
 	
-	.googleMap {display:none;}
+	.grid_8 googleMap {display:none;}
 	
 	
 	
-	.retailLocations{margin: 0 0 0 70px;}
-	.locations{margin: 0 0 0 70px;}
+	.retailLocations{margin: 0 0 0 -170px;}
+	.locations{margin: 0 0 0 -170px;}
 	
-	.connectionHeader {width: 440px;
+	.connectionHeader {;
 	margin: 0 0 0 -1px; }
-	.collectionHeader {width: 440px;
+	.collectionHeader {;
 	margin: 0 0 0 -1px; }
 }
 
