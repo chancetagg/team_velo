@@ -510,7 +510,7 @@ nav a {
 .collectionImage {
   display: block; }
 
-h3 {
+.collectionImage h3 {
   display: block;
   width: 300px;
   margin: 0 0 50px 0;
