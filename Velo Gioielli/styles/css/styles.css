@@ -912,3 +912,20 @@ bottomFooter {
     font-size: 40px;
     text-align: left;
     margin: 6px 0 0 0; }
+
+/* SLIDESHOW IMAGE BACKGROUNDS */
+#image1 {
+  background: url("../../images/img1.jpg") no-repeat center center/cover transparent;
+  overflow: hidden; }
+
+#image2 {
+  background: url("../../images/custom.jpg") no-repeat center center/cover transparent; }
+
+#image3 {
+  background: url("../../images/durable.jpg") no-repeat center center/cover transparent; }
+
+#image4 {
+  background: url("../../images/cycle.jpg") no-repeat center center/cover transparent; }
+
+#image5 {
+  background: url("../../images/passion.jpg") no-repeat center center/cover transparent; }
