@@ -489,8 +489,8 @@ nav a {
   background: url("../../images/bikeTeam.jpg") no-repeat center center/cover transparent;
   border-radius: 0px;
   height: 489px;
-  margin: auto;
-  width: 940px;
+  margin: 20px auto;
+  width: 960px;
   z-index: 50; }
 
 .lifestylePic {
@@ -688,7 +688,10 @@ bottomFooter {
       display: none; }
 
   .splashHeader {
-    margin: 0 0 0 -500px;
+    margin: 0 0 0 -480px; }
+
+  .splashHeader h1 {
+    margin: 50px 0 0 -340px;
     height: 120px; }
 
   .splashIcon {
@@ -696,10 +699,10 @@ bottomFooter {
     float: right;
     max-width: 40px;
     max-height: 40px;
-    margin: -80px 0 0 220px; }
+    margin: -80px 220px; }
 
   .navBar {
-    width: 440px;
+    width: 480px;
     margin: 0 0 0 -35px;
     font-size: .8em; }
 
@@ -708,6 +711,13 @@ bottomFooter {
 
   .nav {
     margin: 0 0 0 -35px; }
+
+  .sectionHeader h3 {
+    font-size: 1.4em; }
+
+  .sectionHeader h1 {
+    font-size: 4em;
+    padding: 10px; }
 
   .aboutSection {
     margin-left: -10px;
@@ -732,6 +742,10 @@ bottomFooter {
   .attributes p {
     display: none;
     margin: 0 0 0 -170px; }
+
+  .bikeTeam {
+    width: 400px;
+    height: 400px; }
 
   .collectionSubhead {
     display: none; }

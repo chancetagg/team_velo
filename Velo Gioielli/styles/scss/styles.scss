@@ -592,11 +592,11 @@ margin: -.9em;
 
 .bikeTeam{
 	
-background: url("../../images/bikeTeam.jpg") no-repeat center center / cover transparent;
+	background: url("../../images/bikeTeam.jpg") no-repeat center center / cover transparent;
     border-radius: 0px;
     height: 489px;
-    margin: auto;
-    width: 940px;
+    margin: 20px auto;
+    width: 960px;
     z-index: 50;	
 	
 	
@@ -628,6 +628,7 @@ background: url("../../images/bikeTeam.jpg") no-repeat center center / cover tra
 	.collectionSubhead{
 		display: block;
 		float: left;
+		
 			h1{text-align: left;
 				margin: 50px 0;			
 				letter-spacing: 1;
@@ -636,7 +637,7 @@ background: url("../../images/bikeTeam.jpg") no-repeat center center / cover tra
 	}
 
 
-.collectionDescription{
+	.collectionDescription{
 		display: block;
 		margin: 50px 0 0 10px;
 		
@@ -918,21 +919,27 @@ margin: 0 auto;
  
 }
 
-.splashHeader {
-	margin: 0 0 0 -500px;
+
+.splashHeader
+{margin: 0 0 0 -480px;}
+
+.splashHeader h1{
+	margin: 50px 0 0 -340px;
 	height: 120px;
 
 }
+
+
 .splashIcon{
 	   display: inline-block;
 	   float: right;
 	   max-width: 40px;
 	   max-height: 40px;
-		margin: -80px 0 0 220px;
+	   margin: -80px 220px;
 	
 }
 	.navBar{
-		width: 440px; 
+		width: 480px; 
 		margin: 0 0 0 -35px;
 		font-size: .8em; 
 	}
@@ -947,14 +954,16 @@ margin: 0 auto;
 	.nav{margin: 0 0 0 -35px;
 	 }
 	 
+	 .sectionHeader h3 {font-size: 1.4em;}
+	 .sectionHeader h1 {font-size: 4em;padding: 10px; }
+
 	 
 	.aboutSection{	
 	margin-left: -10px;
 	font-size: .7em; 
-
 }	
+
 .aboutHeader{
-	
 	margin: 0 0 0 -5px;
 	 } 
 	
@@ -986,6 +995,13 @@ margin: 0 auto;
 	
 }
 
+
+.bikeTeam{
+width:400px;
+height:400px;	
+	
+}
+
 .collectionSubhead{display:none;}
 
 .lifestylePic{display: none;}
@@ -993,7 +1009,7 @@ margin: 0 auto;
 
 .collectionDescription{
 		font-size: .7em;
-	margin: 20px 0 0 -205px;
+		margin: 20px 0 0 -205px;
 		width: 250px; 
 		}
 		
