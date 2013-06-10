@@ -858,6 +858,10 @@ margin: 0 auto;
 
 }
 
+
+.lowerRow1{display: none;}
+.lowerRow2{display: none;}
+
 .footer{
 	
 	width: 700px; 
@@ -872,7 +876,24 @@ margin: 0 auto;
 width:440px;
 margin: 0 auto; 
 
+
+.lowerRow1{display: none;}
+.lowerRow2{display: none;}
  
+}
+
+.splashHeader {
+	margin: 0 0 0 -500px;
+	height: 120px;
+
+}
+.splashIcon{
+	   display: inline-block;
+	   float: right;
+	   max-width: 40px;
+	   max-height: 40px;
+		margin: -80px 0 0 220px;
+	
 }
 	.navBar{
 		width: 440px; 
