@@ -400,7 +400,8 @@ nav:after {
   width: 12em;
   height: 7.5em;
   float: left;
-  background: transparent url("../../images/velo_gioielli_branding.png") no-repeat 0 0; }
+  background: transparent url("../../images/velo_gioielli_branding.png") no-repeat 0 0;
+  cursor: pointer; }
 
 .nav {
   display: block;
