@@ -1234,33 +1234,56 @@ margin: 0 0 0 50px;
 
 /* SLIDESHOW IMAGE BACKGROUNDS */
 
-#image1{
-	background: url("../../images/img1.jpg") no-repeat center center  / cover transparent;
+.image1{
+	background: url("../../images/opener.jpg") no-repeat center center / cover transparent;
 	overflow: hidden;
+	height: 100%;
+    margin: auto;
+    width: 100%;
+    z-index: 10000;	
+	
+
+
 	
 }
 
-#image2{
+.image2{
 	
-		background: url("../../images/custom.jpg") no-repeat center center / cover transparent;
-
+	background: url("../../images/custom.jpg") no-repeat center center / cover transparent;
+	overflow: hidden;
+	height: 100%;
+	width: 100%;
+    margin: auto;
+    z-index: 10000;
 }
 
-#image3{
+.image3{
 	
 		background: url("../../images/durable.jpg") no-repeat center center / cover transparent;
-
+		overflow: hidden;
+		height: 100%;
+		margin: auto;
+		width: 100%;
+		z-index: 10000;	
 }
 
-#image4{
+.image4{
 	
 		background: url("../../images/cycle.jpg") no-repeat center center / cover transparent;
-
+			/* overflow: hidden; */
+	height: 100%;
+    margin: auto;
+    width: 100%;
+    z-index: 10000;	
 }
 
-#image5{
+.image5{
 		background: url("../../images/passion.jpg") no-repeat center center / cover transparent;
-
+	/* overflow: hidden; */
+	height: 100%;
+    margin: auto;
+    width: 100%;
+    z-index: 10000;	
 	
 }
 
