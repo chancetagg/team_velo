@@ -636,13 +636,13 @@ bottomFooter {
   margin-top: 90px; }
 
 /* Media Queries----------------------------------------------------------------------------------------------------------------- */
-@media screen and (min-width: 905px) and (max-width: 1085px) {
-  .container_12 {
-    width: 1085px; }
-
+@media screen and (min-width: 915px) and (max-width: 1085px) {
   .container_12 .grid_3 {
-    width: 200px; } }
-@media screen and (min-width: 700px) and (max-width: 905px) {
+    width: 200px; }
+
+  .grid_3 {
+    width: 205px; } }
+@media screen and (min-width: 700px) and (max-width: 915px) {
   .container_12 {
     width: 905px;
     margin: 0 auto; }
@@ -652,8 +652,17 @@ bottomFooter {
 
   .bikeTeam {
     width: 650px;
-    height: 400px; } }
+    height: 400px; }
+
+  .aboutHeader {
+    display: none; }
+
+  .aboutHeader {
+    display: none; } }
 @media screen and (min-width: 440px) and (max-width: 700px) {
+  .aboutHeader {
+    display: none; }
+
   .container_12 {
     width: 700px;
     margin: 0 auto; }
@@ -679,6 +688,9 @@ bottomFooter {
     width: 700px;
     font-size: .8em; } }
 @media screen and (min-width: 100px) and (max-width: 440px) {
+  .aboutHeader {
+    display: none; }
+
   .container_12 {
     width: 440px;
     margin: 0 auto; }
@@ -808,6 +820,9 @@ bottomFooter {
 
   .collectionHeader {
     margin: 0 0 0 -1px; } }
+@media screen and (min-width: 50px) and (max-width: 100px) {
+  .aboutHeader {
+    display: none; } }
 /** iPhone (landscape) **/
 /** iPhone (portrait) **/
 @media screen and (max-width: 320px) {
