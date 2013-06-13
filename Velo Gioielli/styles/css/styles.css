@@ -102,7 +102,7 @@ h1 {
 
 h2 {
   font-size: 3.5em;
-  /*20px*/
+  /*35px*/
   line-height: 1.33em;
   font-weight: normal;
   font-family: "soleil", "Avenir LT Std", Helvetica, sans-serif;
@@ -117,7 +117,7 @@ h2 {
 
 h3 {
   font-size: 2em;
-  /*16px*/
+  /*20px*/
   font-weight: normal;
   letter-spacing: 1.5;
   font-family: "soleil", "Avenir LT Std", Helvetica, sans-serif;
