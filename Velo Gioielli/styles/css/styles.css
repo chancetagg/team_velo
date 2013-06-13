@@ -221,7 +221,8 @@ a:hover {
   margin: 50px 40px; }
 
 #navbutton {
-  height: 150px; }
+  height: 20px;
+  padding: 2em 0.95em; }
 
 /* Variables ----------------------------------------------------------------- */
 /* Universal ----------------------------------------------------------------- */
@@ -455,8 +456,7 @@ nav a {
 
 .bgred {
   background: #a71d36;
-  text-align: center;
-  padding: 2em 0.95em; }
+  text-align: center; }
 
 .cleanbgred {
   background-color: #a71d36; }
@@ -520,6 +520,21 @@ nav a {
 
 .collectionImage {
   display: block; }
+
+.classicsImage {
+  background: url("../../images/classic.jpg") no-repeat center center/cover transparent;
+  height: 300px;
+  width: 300px; }
+
+.tailwindsImage {
+  background: url("../../images/tailwinds.jpg") no-repeat center center/cover transparent;
+  height: 300px;
+  width: 300px; }
+
+.fineartImage {
+  background: url("../../images/art.jpg") no-repeat center center/cover transparent;
+  height: 300px;
+  width: 300px; }
 
 .collectionImage h3 {
   display: block;
@@ -653,22 +668,57 @@ bottomFooter {
   .container_12 .grid_2 {
     width: 70px; }
 
+  /* NAV CHANGE --------------------------------------- */
   .container_12 .grid_8 {
-    width: 480px; }
+    width: 420px; }
 
   .navWrapper .grid_12 {
     width: 700px; }
 
   .nav li {
-    margin: 0 1em; }
+    margin: 0 0.6em; }
 
+  /* NAV CHANGE --------------------------------------- */
   .container_12 .grid_3 {
-    width: 150px; }
+    width: 155px; }
 
   .bikeTeam {
     width: 650px;
     height: 400px; }
 
+  .blockQuote {
+    font-family: "soleil","Avenir LT Std",Helvetica,sans-serif;
+    font-size: 2.2em;
+    font-weight: normal;
+    line-height: 120%;
+    margin: 50px 40px; }
+
+  /* COLLECTION CHANGES -------------------------------------- */
+  .container_12 .grid_4 {
+    width: 212px; }
+
+  .collectionSubhead h1 {
+    font-size: 2em; }
+
+  .collectionDescription h2 {
+    font-size: 2.8em; }
+
+  .classicsImage {
+    background: url("../../images/classic.jpg") no-repeat center center/cover transparent;
+    height: 245px;
+    width: 212px; }
+
+  .tailwindsImage {
+    background: url("../../images/tailwinds.jpg") no-repeat center center/cover transparent;
+    height: 245px;
+    width: 212px; }
+
+  .fineartImage {
+    background: url("../../images/art.jpg") no-repeat center center/cover transparent;
+    height: 245px;
+    width: 212px; }
+
+  /* COLLECTION CHANGES -------------------------------------- */
   .aboutHeader {
     display: none; }
 
@@ -710,6 +760,17 @@ bottomFooter {
     line-height: 120%;
     margin: 50px 40px; }
 
+  /* NAV CHANGE --------------------------------------- */
+  .container_12 .grid_8 {
+    width: 480px; }
+
+  .navWrapper .grid_12 {
+    width: 700px; }
+
+  .nav li {
+    margin: 0 1em; }
+
+  /* NAV CHANGE --------------------------------------- */
   .lowerRow1 {
     display: none; }
 
@@ -748,7 +809,15 @@ bottomFooter {
 
   .container_12 {
     width: 440px;
-    margin: 0 auto; }
+    margin: 0 auto;
+    /* NAV CHANGE --------------------------------------- */
+    /* NAV CHANGE --------------------------------------- */ }
+    .container_12 .container_12 .grid_8 {
+      width: 480px; }
+    .container_12 .navWrapper .grid_12 {
+      width: 700px; }
+    .container_12 .nav li {
+      margin: 0 1em; }
     .container_12 .lowerRow1 {
       display: none; }
     .container_12 .lowerRow2 {

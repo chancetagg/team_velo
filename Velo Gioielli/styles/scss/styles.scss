@@ -181,7 +181,8 @@ a:hover {
 
 #navbutton{
 
-height: 150px;
+height: 20px;
+padding: 2em 0.95em;
 
 	
 }
@@ -530,7 +531,7 @@ margin: -.9em;
 	
 	background: $red;
 	text-align: center;
-	padding: 2em .95em ;
+	
 	
 	
 }
@@ -648,7 +649,30 @@ margin: -.9em;
 	}
 	
 	.collectionImage{
-		display: block;
+	display: block;
+		
+	}
+	
+	
+	.classicsImage{
+	background: url("../../images/classic.jpg") no-repeat center center / cover transparent;	
+	height:300px;
+	width:300px;	
+	}
+	
+	
+	.tailwindsImage{
+	background: url("../../images/tailwinds.jpg") no-repeat center center / cover transparent;
+	height:300px;
+	width:300px;		
+		
+		
+	}
+	
+	.fineartImage{
+	background: url("../../images/art.jpg") no-repeat center center / cover transparent;
+	height:300px;
+	width:300px;		
 		
 	}
 	
@@ -860,9 +884,9 @@ margin: 0 auto;
     width: 70px;
 }
 
-
+/* NAV CHANGE --------------------------------------- */
 .container_12 .grid_8 {
-    width: 480px;
+    width: 420px;
 }
 
 
@@ -871,12 +895,12 @@ margin: 0 auto;
     width: 700px;
 }
 
-.nav li{
-	margin: 0 1em;
-}
-
+.nav li {
+    margin: 0 0.6em;
+    }
+/* NAV CHANGE --------------------------------------- */
 .container_12 .grid_3{
-width:150px;
+width:155px;
 }
 
 .bikeTeam{
@@ -884,6 +908,56 @@ width:650px;
 height:400px;	
 	
 }
+
+
+.blockQuote {
+    font-family: "soleil","Avenir LT Std",Helvetica,sans-serif;
+    font-size: 2.2em;
+    font-weight: normal;
+    line-height: 120%;
+    margin: 50px 40px;
+}
+
+/* COLLECTION CHANGES -------------------------------------- */
+
+.container_12 .grid_4 {
+    width: 212px;
+}
+
+
+.collectionSubhead h1{
+	
+	font-size: 2em;
+}
+
+.collectionDescription h2{
+	
+	font-size: 2.8em;
+}
+
+	.classicsImage{
+	background: url("../../images/classic.jpg") no-repeat center center / cover transparent;	
+	height:245px;
+	width:212px;	
+	}
+	
+	
+	.tailwindsImage{
+	background: url("../../images/tailwinds.jpg") no-repeat center center / cover transparent;
+	height:245px;
+	width:212px;		
+		
+		
+	}
+	
+	.fineartImage{
+	background: url("../../images/art.jpg") no-repeat center center / cover transparent;
+	height:245px;
+	width:212px;		
+		
+	}
+
+/* COLLECTION CHANGES -------------------------------------- */
 
 
 .aboutHeader{
@@ -954,7 +1028,21 @@ margin: 0 auto;
 }
 
 
+/* NAV CHANGE --------------------------------------- */
+.container_12 .grid_8 {
+    width: 480px;
+}
 
+
+
+.navWrapper .grid_12 {
+    width: 700px;
+}
+
+.nav li{
+	margin: 0 1em;
+}
+/* NAV CHANGE --------------------------------------- */
 
 
 
@@ -1016,7 +1104,21 @@ display:none;
 width:440px;
 margin: 0 auto; 
 
+/* NAV CHANGE --------------------------------------- */
+.container_12 .grid_8 {
+    width: 480px;
+}
 
+
+
+.navWrapper .grid_12 {
+    width: 700px;
+}
+
+.nav li{
+	margin: 0 1em;
+}
+/* NAV CHANGE --------------------------------------- */
 .lowerRow1{display: none;}
 .lowerRow2{display: none;}
  
@@ -1115,8 +1217,8 @@ height:400px;
 .collectionImage{
 		margin: 0 0 0 -105px;
 		display: block; 
+		}
 
-}
 
 .footerWrapper{
 	
