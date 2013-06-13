@@ -890,6 +890,7 @@ bottomFooter{
 	}
 
 /* Media Queries----------------------------------------------------------------------------------------------------------------- */
+/*
 @media screen and (min-width: 960px) and (max-width: 1085px)  {
 
 
@@ -899,9 +900,15 @@ width:200px;
 
 
 }
+*/
 
 @media screen and (min-width: 725px) and (max-width: 960px)  {
 
+body{
+max-width: 960px;
+min-width: 725px;	
+	
+}
 
 #content{margin:0px auto 0 auto;}	
 

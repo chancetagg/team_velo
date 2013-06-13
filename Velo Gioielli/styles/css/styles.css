@@ -665,10 +665,22 @@ bottomFooter {
   display: none; }
 
 /* Media Queries----------------------------------------------------------------------------------------------------------------- */
-@media screen and (min-width: 960px) and (max-width: 1085px) {
-  .container_12 .grid_3 {
-    width: 200px; } }
+/*
+@media screen and (min-width: 960px) and (max-width: 1085px)  {
+
+
+.container_12 .grid_3{
+width:200px;
+}
+
+
+}
+*/
 @media screen and (min-width: 725px) and (max-width: 960px) {
+  body {
+    max-width: 960px;
+    min-width: 725px; }
+
   #content {
     margin: 0px auto 0 auto; }
 
