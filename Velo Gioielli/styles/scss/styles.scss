@@ -883,6 +883,37 @@ margin: 0 auto;
 .container_12 .grid_2 {
     width: 70px;
 }
+/* SPLASH CHANGE --------------------------------------- */
+
+.rslides{
+	
+width:90%;	
+	
+}
+.splashSlideshow{
+	    display: block;
+    height: 90%;
+    left: 65%;
+    margin-left: -600px;
+    overflow: hidden;
+    position: absolute;
+    width: 960px;
+    z-index: 50;
+	
+}
+
+.pattern {
+    left: 52%;
+    margin-left: -475px;
+    width: 864px;
+    z-index: 600;
+}
+
+
+/* SPLASH CHANGE --------------------------------------- */
+
+
+
 
 /* NAV CHANGE --------------------------------------- */
 .container_12 .grid_8 {
@@ -933,6 +964,7 @@ height:400px;
 .collectionDescription h2{
 	
 	font-size: 2.8em;
+	margin: 0 4px 16px;
 }
 
 	.classicsImage{
