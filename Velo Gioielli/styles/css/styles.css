@@ -653,6 +653,9 @@ bottomFooter {
 .navGap {
   margin-top: 90px; }
 
+.map2 {
+  display: none; }
+
 /* Media Queries----------------------------------------------------------------------------------------------------------------- */
 @media screen and (min-width: 960px) and (max-width: 1085px) {
   .container_12 .grid_3 {
@@ -687,6 +690,12 @@ bottomFooter {
     margin-left: -475px;
     width: 860px;
     z-index: 600; }
+
+  .map1 {
+    display: none; }
+
+  .map2 {
+    display: inline-block; }
 
   /* SPLASH CHANGE --------------------------------------- */
   /* NAV CHANGE --------------------------------------- */
