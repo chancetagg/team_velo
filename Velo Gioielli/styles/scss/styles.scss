@@ -1076,12 +1076,14 @@ margin: 0 auto;
 /* NAV CHANGE --------------------------------------- */
 .container_12 .grid_8 {
     width: 480px;
+    left: 50%;
+    margin-left: -240px;
 }
 
 
 
 .navWrapper .grid_12 {
-    width: 700px;
+    width: auto;
 }
 
 .nav li{
