@@ -781,6 +781,112 @@ width:200px;
 
   h3 {
     font-size: 1.6em; } }
+@media screen and (min-width: 440px) and (max-width: 725px) {
+  body {
+    max-width: 725px;
+    min-width: 440px; }
+
+  #content {
+    margin: 0px auto 0 auto; }
+
+  .container_12 {
+    width: 700px;
+    margin: 0 auto; }
+
+  .container_12 .grid_2 {
+    width: 70px; }
+
+  /* SPLASH CHANGE --------------------------------------- */
+  .rslides {
+    width: 100%; }
+
+  .splashSlideshow {
+    display: block;
+    height: 90%;
+    left: 65%;
+    margin-left: -600px;
+    overflow: hidden;
+    position: absolute;
+    width: 860px;
+    z-index: 50; }
+
+  .pattern {
+    left: 52%;
+    margin-left: -475px;
+    width: 860px;
+    z-index: 600; }
+
+  .map1 {
+    display: none; }
+
+  .map2 {
+    display: inline-block; }
+
+  /* SPLASH CHANGE --------------------------------------- */
+  /* NAV CHANGE --------------------------------------- */
+  .container_12 .grid_8 {
+    width: 300px; }
+
+  .navWrapper .grid_12 {
+    width: 500px;
+    margin: 0 10px; }
+
+  .nav li {
+    margin: 0 0.1em; }
+
+  /* NAV CHANGE --------------------------------------- */
+  .container_12 .grid_3 {
+    width: 155px; }
+
+  .bikeTeam {
+    width: 650px;
+    height: 400px; }
+
+  .blockQuote {
+    font-family: "soleil","Avenir LT Std",Helvetica,sans-serif;
+    font-size: 2.2em;
+    font-weight: normal;
+    line-height: 120%;
+    margin: 50px 40px; }
+
+  /* COLLECTION CHANGES -------------------------------------- */
+  .container_12 .grid_4 {
+    width: 212px; }
+
+  .collectionSubhead h1 {
+    font-size: 2em; }
+
+  .collectionDescription h2 {
+    font-size: 2.8em;
+    margin: 0 4px 16px; }
+
+  .classicsImage {
+    background: url("../../images/classic.jpg") no-repeat center center/cover transparent;
+    height: 245px;
+    width: 212px; }
+
+  .tailwindsImage {
+    background: url("../../images/tailwinds.jpg") no-repeat center center/cover transparent;
+    height: 245px;
+    width: 212px; }
+
+  .fineartImage {
+    background: url("../../images/art.jpg") no-repeat center center/cover transparent;
+    height: 245px;
+    width: 212px; }
+
+  /* COLLECTION CHANGES -------------------------------------- */
+  .aboutHeader {
+    display: none; }
+
+  .collectionHeader {
+    display: none; }
+
+  .sectionHeader {
+    display: none; }
+
+  h3 {
+    font-size: 1.6em; } }
 @media screen and (min-width: 100px) and (max-width: 440px) {
   #content {
     margin: 0px auto 0 auto; }
