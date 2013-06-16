@@ -1068,6 +1068,7 @@ font-size: 1.6em;
 body{
 max-width: 725px;
 min-width: 440px;	
+overflow-x: hidden;
 	
 }
 
@@ -1229,10 +1230,20 @@ font-size: 1.6em;
 @media screen and (min-width: 100px) and (max-width: 440px)  {
 
 
+body{
+max-width: 440px;
+min-width: 100px;	
+overflow-x: hidden; 
+	
+}
+
+
+
+
 #content{margin:0px auto 0 auto;}	
 
 .container_12{
-width:700px;
+width:440px;
 margin: 0 auto; 
 }
 
@@ -1250,7 +1261,7 @@ width:100%;
 	display: block;
     height: 90%;
     left: 65%;
-    margin-left: -600px;
+    margin-left: -270px;
     overflow: hidden;
     position: absolute;
     width: 400px;
@@ -1290,15 +1301,16 @@ display:none;
 
 .navWrapper .grid_12 {
     width: 420px;
-    margin-left: -80px; 
+    margin-left: 55px; 
     
 }
 
 .nav li {
-	text-align: center; 
   	margin-top: -32px; 
   	padding: 12px; 
   	    margin-bottom: 10px; 
+  	    margin-left: -20px; 
+  	    text-align: center; 
     }
 /* NAV CHANGE --------------------------------------- */
 .container_12 .grid_3{
@@ -1314,14 +1326,14 @@ width:75px;
 	
 }
 .attributeImage{
-	margin-left: -120px; 
+	margin-left: -80px; 
 	
 }
 
 .bikeTeam{
 width:450px;
 height:200px;	
-margin-left: -150px; 
+margin-left: -20px; 
 	
 }
 
@@ -1333,27 +1345,26 @@ margin-left: -150px;
     font-weight: normal;
     line-height: 120%;
     margin: 50px 40px;
-    margin-left: -100px; 
 }
 
 /* COLLECTION CHANGES -------------------------------------- */
 
 .container_12 .grid_4 {
     width: 212px;
-    margin: 0 0 0 -100px;
+    margin: 0 0 0 -80px;
 }
 
 
 .collectionSubhead h1{
 	
 	font-size: 2.2em;
-	margin: 10px 0 0 10px; 
+	margin: 10px 0 0 100px; 
 }
 
 .collectionDescription h2{
 	width: 200px;
 	font-size: 1.8em;
-	margin: 0 0 10px -36px;
+	margin: 0 0 10px 30px;
 }
 
 	.classicsImage{
