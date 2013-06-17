@@ -1454,7 +1454,7 @@ margin-left: 60px;
 /* COLLECTION CHANGES -------------------------------------- */
 
 
-.aboutHeader{?
+.aboutHeader{
 display: none;	
 	
 }
@@ -1519,7 +1519,7 @@ display:none;
 /* SLIDESHOW IMAGE BACKGROUNDS */
 
 .image1{
-	background:transparent url("../../images/opener.jpg") no-repeat center center;
+	background: transparent url("../../images/opener.jpg") no-repeat center center;
 	overflow: hidden;
 	height: 100%;
     margin: auto;
@@ -1533,7 +1533,7 @@ display:none;
 
 .image2{
 	
-	background:transparent url("../../images/custom.jpg") no-repeat center center;
+	background: transparent url("../../images/custom.jpg") no-repeat center center;
 	overflow: hidden;
 	height: 100%;
 	width: 100%;
@@ -1543,7 +1543,7 @@ display:none;
 
 .image3{
 	
-		background:transparent url("../../images/durable.jpg") no-repeat center center;
+		background: transparent url("../../images/durable.jpg") no-repeat center center;
 		overflow: hidden;
 		height: 100%;
 		margin: auto;
@@ -1553,7 +1553,7 @@ display:none;
 
 .image4{
 	
-		background:transparent url("../../images/cycle.jpg") no-repeat center center;
+		background: transparent url("../../images/cycle.jpg") no-repeat center center;
 			/* overflow: hidden; */
 	height: 100%;
     margin: auto;
@@ -1572,7 +1572,7 @@ display:none;
 }
 
 .gmapsicon{
-	background:transparent url("../../images/gmapsIcon.png") no-repeat center center;
+	background: transparent url("../../images/gmapsIcon.png") no-repeat center center;
 		overflow: hidden;
 		height: 36%;
 		margin: auto;
