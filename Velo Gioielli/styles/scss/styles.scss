@@ -655,14 +655,14 @@ margin: -.9em;
 	
 	
 	.classicsImage{
-	background: url("../../images/classic.jpg") no-repeat center center / cover transparent;	
+	background: transparent url("../../images/classic.jpg") no-repeat center center;	
 	height:300px;
 	width:300px;	
 	}
 	
 	
 	.tailwindsImage{
-	background: url("../../images/tailwinds.jpg") no-repeat center center / cover transparent;
+	background: transparent url("../../images/tailwinds.jpg") no-repeat center center;
 	height:300px;
 	width:300px;		
 		
@@ -670,7 +670,7 @@ margin: -.9em;
 	}
 	
 	.fineartImage{
-	background: url("../../images/art.jpg") no-repeat center center / cover transparent;
+	background: transparent url("../../images/art.jpg") no-repeat center center;
 	height:300px;
 	width:300px;		
 		
@@ -1023,14 +1023,14 @@ height:400px;
 }
 
 	.classicsImage{
-	background: url("../../images/classic.jpg") no-repeat center center / cover transparent;	
+	background: transparent url("../../images/classic.jpg") no-repeat center center;	
 	height:245px;
 	width:212px;	
 	}
 	
 	
 	.tailwindsImage{
-	background: url("../../images/tailwinds.jpg") no-repeat center center / cover transparent;
+	background: transparent url("../../images/tailwinds.jpg") no-repeat center center;
 	height:245px;
 	width:212px;		
 		
@@ -1038,7 +1038,7 @@ height:400px;
 	}
 	
 	.fineartImage{
-	background: url("../../images/art.jpg") no-repeat center center / cover transparent;
+	background: transparent url("../../images/art.jpg") no-repeat center center;
 	height:245px;
 	width:212px;		
 		
@@ -1206,14 +1206,14 @@ width: 275px;
 }
 
 	.classicsImage{
-	background: url("../../images/classic.jpg") no-repeat center center / cover transparent;	
+	background: transparent url("../../images/classic.jpg") no-repeat center center;	
 	height:230px;
 	width:200px;	
 	}
 	
 	
 	.tailwindsImage{
-	background: url("../../images/tailwinds.jpg") no-repeat center center / cover transparent;
+	background: transparent url("../../images/tailwinds.jpg") no-repeat center center;
 	height:230px;
 	width:200px;		
 		
@@ -1221,7 +1221,7 @@ width: 275px;
 	}
 	
 	.fineartImage{
-	background: url("../../images/art.jpg") no-repeat center center / cover transparent;
+	background: transparent url("../../images/art.jpg") no-repeat center center;
 	height:230px;
 	width:200px;		
 		
@@ -1421,7 +1421,7 @@ margin-left: -20px;
 
 
 	.classicsImage{
-	background: url("../../images/classic.jpg") no-repeat center center / cover transparent;	
+	background: transparent url("../../images/classic.jpg") no-repeat center center;	
 	height:165px;
 	width:132px;	
 	margin-left: 60px;
@@ -1429,7 +1429,7 @@ margin-left: -20px;
 	
 	
 	.tailwindsImage{
-	background: url("../../images/tailwinds.jpg") no-repeat center center / cover transparent;
+	background: transparent url("../../images/tailwinds.jpg") no-repeat center center;
 	height:165px;
 	width:132px;		
 margin-left: 60px;
@@ -1437,7 +1437,7 @@ margin-left: 60px;
 			}
 	
 	.fineartImage{
-	background: url("../../images/art.jpg") no-repeat center center / cover transparent;
+	background: transparent url("../../images/art.jpg") no-repeat center center;
 	height:165px;
 	width:132px;
 				
@@ -1454,7 +1454,7 @@ margin-left: 60px;
 /* COLLECTION CHANGES -------------------------------------- */
 
 
-.aboutHeader{
+.aboutHeader{?
 display: none;	
 	
 }
