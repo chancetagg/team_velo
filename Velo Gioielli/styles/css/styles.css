@@ -826,14 +826,14 @@ width:200px;
   /* SPLASH CHANGE --------------------------------------- */
   /* NAV CHANGE --------------------------------------- */
   .container_12 .grid_8 {
-    width: 300px; }
+    width: 400px; }
 
   .navWrapper .grid_12 {
-    width: 500px;
-    margin: 0 10px; }
+    width: 800px;
+    margin: 0 50px; }
 
   .nav li {
-    margin: 0 0.1em; }
+    margin: 0 0.5em; }
 
   /* NAV CHANGE --------------------------------------- */
   .container_12 .grid_3 {
@@ -850,31 +850,38 @@ width:200px;
     line-height: 120%;
     margin: 50px 40px; }
 
+  .attributes p {
+    display: none; }
+
+  .container_12 .grid_3 {
+    width: 275px; }
+
   /* COLLECTION CHANGES -------------------------------------- */
   .container_12 .grid_4 {
-    width: 212px; }
+    width: 200px; }
 
   .collectionSubhead h1 {
-    font-size: 2em; }
+    font-size: 2.5em;
+    margin-left: 20px; }
 
   .collectionDescription h2 {
-    font-size: 2.8em;
+    font-size: 2.2em;
     margin: 0 4px 16px; }
 
   .classicsImage {
     background: url("../../images/classic.jpg") no-repeat center center/cover transparent;
-    height: 245px;
-    width: 212px; }
+    height: 230px;
+    width: 200px; }
 
   .tailwindsImage {
     background: url("../../images/tailwinds.jpg") no-repeat center center/cover transparent;
-    height: 245px;
-    width: 212px; }
+    height: 230px;
+    width: 200px; }
 
   .fineartImage {
     background: url("../../images/art.jpg") no-repeat center center/cover transparent;
-    height: 245px;
-    width: 212px; }
+    height: 230px;
+    width: 200px; }
 
   /* COLLECTION CHANGES -------------------------------------- */
   .aboutHeader {
@@ -956,9 +963,6 @@ width:200px;
   .attributeHeading {
     display: none; }
 
-  .attributeImage {
-    margin-left: -80px; }
-
   .bikeTeam {
     width: 450px;
     height: 200px;
@@ -975,7 +979,10 @@ width:200px;
   /* COLLECTION CHANGES -------------------------------------- */
   .container_12 .grid_4 {
     width: 212px;
-    margin: 0 0 0 -80px; }
+    margin: 0 0 0 -70px; }
+
+  .connectionSection {
+    margin: 0 0 0 80px; }
 
   .collectionSubhead h1 {
     font-size: 2.2em;
