@@ -998,7 +998,7 @@ width:200px;
 
   /* COLLECTION CHANGES -------------------------------------- */
   .container_12 .grid_4 {
-    width: 205px;
+    width: 215px;
     margin: 0 0 0 -70px; }
 
   .connectionSection {
@@ -1017,19 +1017,22 @@ width:200px;
     background: url("../../images/classic.jpg") no-repeat center center/cover transparent;
     height: 165px;
     width: 132px;
-    margin: 0 0 0 -8px; }
+    margin-left: 60px; }
 
   .tailwindsImage {
     background: url("../../images/tailwinds.jpg") no-repeat center center/cover transparent;
     height: 165px;
     width: 132px;
-    margin: 0 0 0 16px; }
+    margin-left: 60px; }
 
   .fineartImage {
     background: url("../../images/art.jpg") no-repeat center center/cover transparent;
     height: 165px;
     width: 132px;
-    margin: 0 0 0 40px; }
+    margin-left: 60px; }
+
+  .collectionImage h3 {
+    margin-left: 65px; }
 
   /* COLLECTION CHANGES -------------------------------------- */
   .aboutHeader {
