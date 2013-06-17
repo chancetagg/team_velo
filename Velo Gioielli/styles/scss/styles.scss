@@ -902,6 +902,14 @@ width:200px;
 }
 */
 
+.gmapsicon{
+	
+	display:none;
+}
+
+
+
+
 @media screen and (min-width: 725px) and (max-width: 960px)  {
 
 body{
@@ -1059,6 +1067,14 @@ font-size: 1.6em;
 	
 	
 }
+
+.gmapsicon{
+	
+	display:none;
+}
+
+
+
 
 }
 
@@ -1235,11 +1251,14 @@ font-size: 1.6em;
 	
 }
 
-
+.gmapsicon{
+	
+	display:none;
+}
 
 }
 
-@media screen and (min-width: 100px) and (max-width: 440px)  {
+@media screen and (min-width: 0px) and (max-width: 440px)  {
 
 
 body{
@@ -1249,7 +1268,11 @@ overflow-x: hidden;
 	
 }
 
-
+.gmapsicon{
+	
+	display:inline-block;
+	cursor: pointer;
+}
 
 
 #content{margin:0px auto 0 auto;}	
@@ -1261,6 +1284,16 @@ margin: 0 auto;
 
 .container_12 .grid_2 {
     width: 35px;
+}
+
+
+
+
+
+
+.container_12 .grid_4 {
+    margin: 0 0 0 -70px;
+    width: 140px;
 }
 /* SPLASH CHANGE --------------------------------------- */
 
@@ -1296,9 +1329,15 @@ display:none;
 
 .map2{
 	
-	display: inline-block;
+	display: none;
 }
 
+
+.connectionSection .googleMap{
+	display: none;
+	
+	
+}
 /* SPLASH CHANGE --------------------------------------- */
 
 
@@ -1359,7 +1398,7 @@ margin-left: -20px;
 /* COLLECTION CHANGES -------------------------------------- */
 
 .container_12 .grid_4 {
-    width: 212px;
+    width: 205px;
     margin: 0 0 0 -70px;
 }
 
@@ -1527,7 +1566,15 @@ display:none;
 	
 }
 
-
-
+.gmapsicon{
+	background:transparent url("../../images/gmapsIcon.png") no-repeat center center;
+		overflow: hidden;
+		height: 36%;
+		margin: auto;
+		width: 45%;
+		z-index: 10000;	
+		
+	
+}
 
 
